@@ -1,3 +1,6 @@
+#### My ignor list ###
+**/com/github/demchenkovv/other/test_package
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
