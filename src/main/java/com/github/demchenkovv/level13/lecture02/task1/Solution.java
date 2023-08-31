@@ -25,6 +25,13 @@ public class Solution {
 
     }
 
+    /**
+     * Важно:
+     * Коллекция destination должна иметь длину не меньше, чем длина коллекции source
+     * (иначе кинется исключение IndexOutOfBoundsException).
+     * @param destination назначение (куда копировать)
+     * @param source источник (откуда копировать)
+     */
     public static void copy(ArrayList<String> destination, ArrayList<String> source) {
         if (destination.size() < source.size()) {
             throw new IndexOutOfBoundsException("Source does not fit in dest");
@@ -32,10 +39,23 @@ public class Solution {
         Collections.copy(destination, source);
     }
 
+    /**
+     * Метод Collections.addAll(Collection<T> colls, T e1, T e2, T e3, ...)
+     * Метод addAll() добавляет в коллекцию colls элементы e1, e2, e3, ...
+     * Количество переданных элементов может быть любым.
+     * @param list коллекция для добавления
+     * @param strings элементы для добавления
+     */
     public static void addAll(ArrayList<String> list, String... strings) {
         Collections.addAll(list, strings);
     }
 
+    /**
+     * Метод replaceAll() заменяет все элементы коллекции list, равные oldValue, на элемент newValue.
+     * @param list коллекция для изменения
+     * @param oldValue старое значение
+     * @param newValue новое значение
+     */
     public static void replaceAll(ArrayList<String> list, String oldValue, String newValue) {
         Collections.replaceAll(list, oldValue, newValue);
     }
