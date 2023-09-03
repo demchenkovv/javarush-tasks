@@ -1,11 +1,11 @@
-package com.github.demchenkovv.level14.lecture01.task1;
+package com.github.demchenkovv.level14.lecture01.task2;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 /*
-Помощник преподавателя
+Помощник преподавателя-2
 */
 
 public class Solution {
@@ -14,6 +14,7 @@ public class Solution {
     public static final String EXIT = "exit";
     public static final String ANSWERING = "Отвечает ";
     public static final String NOT_EXIST = "Студента с таким номером не существует";
+    public static final String INTEGER_REQUIRED = "Нужно ввести целое число";
 
     static List<String> studentsJournal = Arrays.asList(
             "Тимур Мясной"
@@ -37,10 +38,18 @@ public class Solution {
                 break;
             }
 
-            int studentId = Integer.parseInt(input);
+            int studentId;
+
+            try {
+                studentId = Integer.parseInt(input);
+            } catch (NumberFormatException ex) {
+                System.out.println(INTEGER_REQUIRED);
+                continue;
+            }
+
             try {
                 System.out.println(ANSWERING + studentsJournal.get(studentId));
-            } catch (ArrayIndexOutOfBoundsException ex) {
+            } catch (Exception e) {
                 System.out.println(NOT_EXIST);
             }
         }
@@ -49,12 +58,12 @@ public class Solution {
 
 /*
 Программа считывает с консоли номер, находит в журнале соответствующего студента и вызывает его отвечать.
-Но есть проблема: если в журнале нет студента с нужным номером, программа завершается с
-исключением ArrayIndexOutOfBoundsException. Оберни одну строку в try-catch, чтобы программа продолжала работать.
-В блоке catch выведи в консоли сообщение "Студента с таким номером не существует".
+И даже обрабатывает некорректные числа.
+Но есть еще одна проблема: если введено не целое число, метод parseInt бросает NumberFormatException.
+Оберни часть кода в try-catch так, чтобы программа продолжала работу, даже если было введено не целое число.
+И если введено не целое число, выведи в консоль сообщение: "Нужно ввести целое число" и выполни continue; для корректной работы цикла.
 
 Требования:
-•	Одна строка должна быть обернута в try-catch.
-•	Программа должна продолжить работу, если был введен несуществующий номер.
-•	Программа должна выводить сообщение "Студента с таким номером не существует" каждый раз при вводе несуществующего номера.
+•	Программа должна продолжить работу, если было введено не целое число.
+•	Программа должна выводить сообщение: "Нужно ввести целое число" каждый раз при вводе не целого числа.
  */
