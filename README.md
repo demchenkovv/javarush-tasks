@@ -27,3 +27,7 @@
 <br>**Enum**  
 [Как использовать класс Enum](https://javarush.com/groups/posts/1963-kak-ispoljhzovatjh-klass-enum)  
 [Enum. Практические примеры. Добавление конструкторов и методов](https://javarush.com/groups/posts/2260-enum-prakticheskie-primerih-dobavlenie-konstruktorov-i-metodov)
+
+<br>**Exception**  
+[Исключения: перехват и обработка](https://javarush.com/groups/posts/1943-iskljuchenija-perekhvat-i-obrabotka)  
+[Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)  
