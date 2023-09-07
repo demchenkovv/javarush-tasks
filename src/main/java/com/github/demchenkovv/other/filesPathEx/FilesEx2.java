@@ -10,7 +10,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 public class FilesEx2 {
     public static void main(String[] args) throws IOException {
 
-        List<String> lines = Files.readAllLines(Paths.get("src/main/java/com/github/demchenkovv/other/filesPathEx/pushkin.txt"), UTF_8);
+        List<String> lines = Files.readAllLines(Paths.get("src/main/java/com/github/demchenkovv/other/filesPathEx/testFolder"), UTF_8);
 
         for (String s : lines) {
             System.out.println(s);
