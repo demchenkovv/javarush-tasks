@@ -30,4 +30,7 @@
 
 <br>**Exception**  
 [Исключения: перехват и обработка](https://javarush.com/groups/posts/1943-iskljuchenija-perekhvat-i-obrabotka)  
-[Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)  
+[Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)
+
+<br>**Java Files, Path**  
+[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)  
