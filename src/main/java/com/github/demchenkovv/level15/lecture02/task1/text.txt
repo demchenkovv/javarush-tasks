@@ -1,0 +1,4 @@
+The program should display
+the contents of the file
+in the console according
+to the condition.
