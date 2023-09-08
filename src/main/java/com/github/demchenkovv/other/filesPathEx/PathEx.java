@@ -14,15 +14,15 @@ public class PathEx {
 
         Path testFilePath = Paths.get("C:\\Users\\Username\\Desktop\\testFile.txt");
 
-        // возвращает имя файла из пути;
+        // Path getFileName() - Возвращает имя файла без директории;
         Path fileName = testFilePath.getFileName();
         System.out.println(fileName);
 
-        // возвращает «родительскую» директорию по отношению к текущему пути (то есть ту директорию, которая находится выше по дереву каталогов);
+        // Path getParent() - Возвращает родительскую директорию;
         Path parent = testFilePath.getParent();
         System.out.println(parent);
 
-        // возвращает «корневую» директорию; то есть ту, которая находится на вершине дерева каталогов;
+        // Path getRoot() - Возвращает корневую директорию из пути
         Path root = testFilePath.getRoot();
         System.out.println(root);
 
@@ -33,11 +33,25 @@ public class PathEx {
         boolean startsWithLalala = testFilePath.startsWith("lalalala");
         System.out.println(startsWithLalala);
 
-        // возвращает true, если текущий путь является абсолютным
+        // boolean isAbsolute() - Проверяет, что текущий путь — абсолютный
         System.out.println(testFilePath.isAbsolute());
 
+        // Path toAbsolutePath() - Преобразует путь в абсолютный
+        Path relativePath = Path.of("src/main/java/com/github/demchenkovv/other/filesPathEx");
+        System.out.println(relativePath.toAbsolutePath());
 
-        // Path normalize() - «нормализует» текущий путь, удаляя из него ненужные элементы.
+        // Path relativize() — вычисляет относительный путь между текущим и переданным путем.
+        Path testFilePath1 = Paths.get("C:\\Users\\Users\\Users\\Users");
+        Path testFilePath2 = Paths.get("C:\\Users\\Users\\Users\\Users\\Username\\Desktop\\testFile.txt");
+        System.out.println(testFilePath1.relativize(testFilePath2));
+
+        // Path resolve(Path other) - Строит новый абсолютный путь из абсолютного и относительного.
+        System.out.println(testFilePath1.resolve(testFilePath2));
+
+
+
+        // Path normalize() - Убирает шаблоны в имени директории.
+        // «Нормализует» текущий путь, удаляя из него ненужные элементы.
         // Если в твоей программе появился путь, использующий “.” или “..”,
         // метод normalize() позволит удалить их и получить путь, в котором они не будут содержаться
         Path path5 = Paths.get("C:\\Users\\Java\\.\\examples");
@@ -46,10 +60,21 @@ public class PathEx {
         Path path6 = Paths.get("C:\\Users\\Java\\..\\examples");
         System.out.println(path6.normalize()); // C:\Users\examples
 
-        // Path relativize() — вычисляет относительный путь между текущим и переданным путем.
-        Path testFilePath1 = Paths.get("C:\\Users\\Users\\Users\\Users");
-        Path testFilePath2 = Paths.get("C:\\Users\\Users\\Users\\Users\\Username\\Desktop\\testFile.txt");
+        // int getNameCount() - Дробит путь на части с помощью разделителя /.
+        // Возвращает количество частей.
+        int getNameCount = testFilePath2.getNameCount();
+        System.out.println(getNameCount);
 
-        System.out.println(testFilePath1.relativize(testFilePath2));
+        // Дробит путь на части с помощью разделителя /.
+        // Возвращает часть по ее номеру.
+//        Path getName(int index)
+
+        // Дробит путь на части с помощью разделителя /.
+        // Возвращает часть пути, заданную интервалом.
+        // Path subpath(int beginIndex, int endIndex)
+
+        // File toFile() - Преобразует объект Path в устаревший объект File
+
+        // URI toUri() - Преобразует объект Path в объект типа URI
     }
 }

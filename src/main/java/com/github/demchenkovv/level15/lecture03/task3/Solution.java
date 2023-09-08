@@ -10,8 +10,9 @@ import java.util.Scanner;
 */
 
 public class Solution {
-    public static ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-    public static PrintStream stream = new PrintStream(outputStream);
+
+    public static ByteArrayOutputStream outputStream = new ByteArrayOutputStream(); // динамически увеличивающийся массив байт, унаследованный от OutputStream
+    public static PrintStream stream = new PrintStream(outputStream); // общее назначение класса PrintStream — вывод информации в какой-то поток
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
