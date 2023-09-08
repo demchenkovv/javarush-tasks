@@ -14,7 +14,7 @@ public class PathEx {
 
         Path testFilePath = Paths.get("C:\\Users\\Username\\Desktop\\testFile.txt");
 
-        // Path getFileName() - Возвращает имя файла без директории;
+        // Path getFileName() - возвращает одно имя файла (или директории) — то, что идет после последнего разделителя;
         Path fileName = testFilePath.getFileName();
         System.out.println(fileName);
 
