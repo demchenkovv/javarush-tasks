@@ -33,5 +33,8 @@
 [Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)
 
 <br>**IO**  
-[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)  
-[Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)
+[Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
+[Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
+
+<br>**NIO**  
+[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path) 
