@@ -45,6 +45,27 @@ public class ZonedDateTimeExample {
         LocalTime localTime = zoneCairo.toLocalTime();
         LocalDateTime localDateTime = zoneCairo.toLocalDateTime();
 
+
+        // withZoneSameInstant(ZoneId) - возвращает новый объект с тем же моментом времени (instant),
+        // но в другом часовом поясе. Таким образом можно узнать время в другом месте в настоящее время.
+        ZonedDateTime znd = ZonedDateTime.now(); // текущее время и дата
+        System.out.println("Original date and time: " + znd);
+
+        ZoneId newZone = ZoneId.of("Europe/Paris"); // новый объект с другим часовым поясом
+        ZonedDateTime newZdt = znd.withZoneSameInstant(newZone); // новый объект ZonedDateTime с тем же моментом времени, но в часовом поясе Europe/Paris
+        System.out.println("New date and time in Paris timezone: " + newZdt);
+
+
+        // withZoneSameLocal(ZoneId) - используется для преобразования локальной даты и времени
+        // (без учета перехода на летнее время). Этот метод изменяет часовой пояс объекта ZonedDateTime
+        // без изменения момента времени.
+        ZoneId zoneDefault = ZoneId.systemDefault();
+        ZonedDateTime now = ZonedDateTime.now(zoneDefault);
+        ZoneId newZoneId = ZoneId.of("America/Los_Angeles");
+        ZonedDateTime zonedDateTime = now.withZoneSameLocal(newZoneId);
+        System.out.println("Date and time in " + newZoneId + " timezone: " + zonedDateTime);
+
+
         // Работа со временем
 //        int getYear() Возвращает год из конкретной даты
 //        Month getMonth() Возвращает месяц даты: одну из специальных констант JANUARY, FEBRUARY, ...;
