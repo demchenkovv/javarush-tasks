@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-//        Path path = Paths.get("src/main/java/com/github/demchenkovv/level15/lecture02/task1/text.txt").normalize();
+//        Path path = Paths.get("src/main/java/com/github/demchenkovv/level15/lecture03/polimorphismExample/text.txt").normalize();
 
         try (Scanner scanner = new Scanner(System.in)) {
             List<String> lines = Files.readAllLines(Paths.get(scanner.nextLine()));

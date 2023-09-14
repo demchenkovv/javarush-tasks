@@ -15,7 +15,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
 
         Path path = Paths
-                .get("src/main/java/com/github/demchenkovv/level15/lecture02/task1/text.txt")
+                .get("src/main/java/com/github/demchenkovv/level15/lecture03/polimorphismExample/text.txt")
                 .normalize();
 
         try (BufferedReader bufferedReader =

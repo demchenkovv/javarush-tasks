@@ -1,4 +1,4 @@
-package com.github.demchenkovv.level17.lecture02.task4;
+package com.github.demchenkovv.level17.lecture03.task4;
 
 /*
 Питомцы бывают разные

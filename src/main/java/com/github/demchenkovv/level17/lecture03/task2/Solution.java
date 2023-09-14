@@ -1,7 +1,6 @@
-package com.github.demchenkovv.level17.lecture02.task2;
+package com.github.demchenkovv.level17.lecture03.task2;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 /*
 Космическая одиссея ч.2
