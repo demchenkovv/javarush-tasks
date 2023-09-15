@@ -37,4 +37,14 @@
 [Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
 
 <br>**NIO**  
-[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path) 
+[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
+
+<br>**ООП**  
+[Отношения между классами. Наследование, композиция, агрегирование](https://javarush.com/groups/posts/1967-otnoshenija-mezhdu-klassami-nasledovanie-kompozicija-i-agregirovanie-)  
+[Принципы инкапсуляции](https://javarush.com/groups/posts/1969-principih-inkapsuljacii)  
+[Практика использования полиморфизма](https://javarush.com/groups/posts/1974-praktika-ispoljhzovanija-polimorfizma)  
+[Для чего в Java нужны интерфейсы](https://javarush.com/groups/posts/1981-dlja-chego-v-java-nuzhnih-interfeysih)  
+[Разница между абстрактными классами и интерфейсами](https://javarush.com/groups/posts/1985-raznica-mezhdu-abstraktnihmi-klassami-i-interfeysami)  
+[Отношения между классами (объектами)](http://java-course.ru/begin/relations/)  
+
+<br>
