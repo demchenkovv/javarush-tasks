@@ -47,4 +47,5 @@
 [Разница между абстрактными классами и интерфейсами](https://javarush.com/groups/posts/1985-raznica-mezhdu-abstraktnihmi-klassami-i-interfeysami)  
 [Отношения между классами (объектами)](http://java-course.ru/begin/relations/)  
 
-<br>
+<br>**Stream API. Обработка потока данных**  
+[Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)  
