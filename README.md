@@ -40,6 +40,7 @@
 [Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
 
 <br>**ООП**  
+[Принципы ООП](https://javarush.com/groups/posts/principy-oop)  
 [Отношения между классами. Наследование, композиция, агрегирование](https://javarush.com/groups/posts/1967-otnoshenija-mezhdu-klassami-nasledovanie-kompozicija-i-agregirovanie-)  
 [Принципы инкапсуляции](https://javarush.com/groups/posts/1969-principih-inkapsuljacii)  
 [Практика использования полиморфизма](https://javarush.com/groups/posts/1974-praktika-ispoljhzovanija-polimorfizma)  
