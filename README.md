@@ -49,3 +49,10 @@
 
 <br>**Stream API. Обработка потока данных**  
 [Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)  
+
+<br>**Lambda-expression**  
+[Lambda-выражения на примерах](https://javarush.com/groups/posts/845)  
+[Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 1](https://javarush.com/groups/posts/264)  
+[Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 2](https://javarush.com/groups/posts/283)  
+
+
