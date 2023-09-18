@@ -1,5 +1,4 @@
 #### My ignor list ###
-**/com/github/demchenkovv/other/test_package
 .idea/
 
 target/
