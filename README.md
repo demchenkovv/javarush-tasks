@@ -45,6 +45,8 @@
 [Принципы инкапсуляции](https://javarush.com/groups/posts/1969-principih-inkapsuljacii)  
 [Практика использования полиморфизма](https://javarush.com/groups/posts/1974-praktika-ispoljhzovanija-polimorfizma)  
 [Для чего в Java нужны интерфейсы](https://javarush.com/groups/posts/1981-dlja-chego-v-java-nuzhnih-interfeysih)  
+[Дефолтные методы в интерфейсах](https://javarush.com/groups/posts/1984-defoltnihe-metodih-v-interfeysakh)  
+[Абстрактные классы в Java на конкретных примерах](https://javarush.com/groups/posts/1973-abstraktnihe-klassih-v-java-na-konkretnihkh-primerakh)  
 [Разница между абстрактными классами и интерфейсами](https://javarush.com/groups/posts/1985-raznica-mezhdu-abstraktnihmi-klassami-i-interfeysami)  
 [Отношения между классами (объектами)](http://java-course.ru/begin/relations/)  
 
@@ -55,5 +57,9 @@
 [Lambda-выражения на примерах](https://javarush.com/groups/posts/845)  
 [Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 1](https://javarush.com/groups/posts/264)  
 [Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 2](https://javarush.com/groups/posts/283)  
+
+<br>**Переопределение методов**  
+[Механизм переопределения методов или Override в Java](https://javarush.com/groups/posts/1975-kak-ustroen-mekhanizm-pereopredelenija-metodov-)  
+
 
 
