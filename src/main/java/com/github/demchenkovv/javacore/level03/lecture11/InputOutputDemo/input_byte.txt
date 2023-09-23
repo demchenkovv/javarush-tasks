@@ -1,0 +1,2 @@
+Hello world.
+I used the readAndWriteBytes() method to write a byte stream.

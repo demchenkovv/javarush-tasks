@@ -1,0 +1,2 @@
+Hello world.
+I used the demoReaderWriter() method to write a stream of characters.
