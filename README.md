@@ -49,6 +49,8 @@
 [Абстрактные классы в Java на конкретных примерах](https://javarush.com/groups/posts/1973-abstraktnihe-klassih-v-java-na-konkretnihkh-primerakh)  
 [Разница между абстрактными классами и интерфейсами](https://javarush.com/groups/posts/1985-raznica-mezhdu-abstraktnihmi-klassami-i-interfeysami)  
 [Отношения между классами (объектами)](http://java-course.ru/begin/relations/)  
+[Оператор Instanceof в Java](https://javarush.com/groups/posts/2018-kak-rabotaet-operator-instanceof)  
+[Расширение и сужение ссылочных типов](https://javarush.com/groups/posts/2019-rasshirenie-i-suzhenie-ssihlochnihkh-tipov)  
 
 <br>**Stream API. Обработка потока данных**  
 [Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)  
