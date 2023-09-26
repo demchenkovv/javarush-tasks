@@ -51,6 +51,8 @@
 [Отношения между классами (объектами)](http://java-course.ru/begin/relations/)  
 [Оператор Instanceof в Java](https://javarush.com/groups/posts/2018-kak-rabotaet-operator-instanceof)  
 [Расширение и сужение ссылочных типов](https://javarush.com/groups/posts/2019-rasshirenie-i-suzhenie-ssihlochnihkh-tipov)  
+[Модификаторы доступа. Private, protected, default, public](https://javarush.com/groups/posts/1988-modifikatorih-dostupa-private-protected-default-public)  
+[Порядок действий при создании объекта](https://javarush.com/groups/posts/2137-porjadok-deystviy-pri-sozdanii-obhhekta)  
 
 <br>**Stream API. Обработка потока данных**  
 [Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)  
