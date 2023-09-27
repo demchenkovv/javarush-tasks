@@ -1,7 +1,6 @@
 ## Дополнительные лекции к уровням
 
-### Java Syntax Zero
-
+<br>**Boxing/unboxing**  
 [Обёртки, распаковка и запаковка](https://javarush.com/groups/posts/1948-objertki-raspakovka-i-zapakovka)  
 
 <br>**ArrayList**  
@@ -53,6 +52,8 @@
 [Расширение и сужение ссылочных типов](https://javarush.com/groups/posts/2019-rasshirenie-i-suzhenie-ssihlochnihkh-tipov)  
 [Модификаторы доступа. Private, protected, default, public](https://javarush.com/groups/posts/1988-modifikatorih-dostupa-private-protected-default-public)  
 [Порядок действий при создании объекта](https://javarush.com/groups/posts/2137-porjadok-deystviy-pri-sozdanii-obhhekta)  
+[Конструкторы базовых классов](https://javarush.com/groups/posts/1927-konstruktorih-bazovihkh-klassov--)  
+[Жизненный цикл объекта](https://javarush.com/groups/posts/1930-zhiznennihy-cikl-obhhekta-)  
 
 <br>**Stream API. Обработка потока данных**  
 [Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)  
@@ -64,6 +65,3 @@
 
 <br>**Переопределение методов**  
 [Механизм переопределения методов или Override в Java](https://javarush.com/groups/posts/1975-kak-ustroen-mekhanizm-pereopredelenija-metodov-)  
-
-
-
