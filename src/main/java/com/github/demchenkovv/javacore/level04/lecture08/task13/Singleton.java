@@ -9,14 +9,12 @@ public final class Singleton {
 
     // Поле для хранения объекта-одиночки должно быть объявлено
     // статичным.
-    private static final Singleton INSTANCE = null;
+    private static Singleton instance = null;
 
     // Конструктор одиночки всегда должен оставаться приватным,
     // чтобы клиенты не могли самостоятельно создавать
     // экземпляры этого класса через оператор `new`.
     private Singleton() {
-        System.out.println("Запущен приватный конструктор Singleton()");
-        System.out.println("В конструкторе может жить код инициализации подключения к серверу баз данных.");
         // Здесь может жить код инициализации подключения к
         // серверу баз данных.
         // ...
@@ -26,15 +24,11 @@ public final class Singleton {
     // конструктору и является точкой доступа к экземпляру этого
     // класса.
     public static Singleton getInstance() {
-        System.out.println("Вызван метод getInstance()");
-        if (Singleton.INSTANCE == null) {
-            System.out.println("Значение Singleton.INSTANCE == null");
-            System.out.println("Инициализирую статическую переменную INSTANCE = new Singleton()");
-            return new Singleton();
+        if (Singleton.instance == null) {
+            instance = new Singleton();
 
         }
-        System.out.println("Возвращаю статическую переменную Singleton.INSTANCE");
-        return Singleton.INSTANCE;
+        return Singleton.instance;
     }
 
     // Наконец, любой класс одиночки должен иметь какую-то
