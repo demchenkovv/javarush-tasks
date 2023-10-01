@@ -1,12 +1,12 @@
 ## Дополнительные лекции к уровням
 
 <br>**Boxing/unboxing**  
-[Обёртки, распаковка и запаковка](https://javarush.com/groups/posts/1948-objertki-raspakovka-i-zapakovka)  
+[Обёртки, распаковка и запаковка](https://javarush.com/groups/posts/1948-objertki-raspakovka-i-zapakovka)
 
 <br>**ArrayList**  
 [Класс ArrayList](https://javarush.com/groups/posts/klass-arraylist)  
 [Удаление элемента из списка ArrayList](https://javarush.com/groups/posts/1935-udalenie-ehlementa-iz-spiska-arraylist)    
-[Работа ArrayList в картинках](https://javarush.com/groups/posts/1936-rabota-arraylist-v-kartinkakh--)  
+[Работа ArrayList в картинках](https://javarush.com/groups/posts/1936-rabota-arraylist-v-kartinkakh--)
 
 <br>**LinkedList**    
 [Связанный список LinkedList](https://javarush.com/groups/posts/1938-linkedlist)
@@ -33,7 +33,7 @@
 
 <br>**IO**  
 [Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
-[Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
+[Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)
 
 <br>**NIO**  
 [Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
@@ -53,15 +53,31 @@
 [Модификаторы доступа. Private, protected, default, public](https://javarush.com/groups/posts/1988-modifikatorih-dostupa-private-protected-default-public)  
 [Порядок действий при создании объекта](https://javarush.com/groups/posts/2137-porjadok-deystviy-pri-sozdanii-obhhekta)  
 [Конструкторы базовых классов](https://javarush.com/groups/posts/1927-konstruktorih-bazovihkh-klassov--)  
-[Жизненный цикл объекта](https://javarush.com/groups/posts/1930-zhiznennihy-cikl-obhhekta-)  
+[Жизненный цикл объекта](https://javarush.com/groups/posts/1930-zhiznennihy-cikl-obhhekta-)
 
 <br>**Stream API. Обработка потока данных**  
-[Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)  
+[Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)
 
 <br>**Lambda-expression**  
 [Lambda-выражения на примерах](https://javarush.com/groups/posts/845)  
 [Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 1](https://javarush.com/groups/posts/264)  
-[Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 2](https://javarush.com/groups/posts/283)  
+[Популярно о лямбда-выражениях в Java. С примерами и задачами. Часть 2](https://javarush.com/groups/posts/283)
 
 <br>**Переопределение методов**  
-[Механизм переопределения методов или Override в Java](https://javarush.com/groups/posts/1975-kak-ustroen-mekhanizm-pereopredelenija-metodov-)  
+[Механизм переопределения методов или Override в Java](https://javarush.com/groups/posts/1975-kak-ustroen-mekhanizm-pereopredelenija-metodov-)
+
+<br>**Многопоточность (Multithreading)**  
+[Многопоточность в Java [Хабр]](https://habr.com/ru/articles/164487/)  
+[Многопоточность в Java: суть, «плюсы» и частые ловушки](https://javarush.com/groups/posts/1992-mnogopotochnostjh-v-java-sutjh-pljusih-i-chastihe-lovushki-)  
+[Многопоточность: что делают методы класса Thread](https://javarush.com/groups/posts/1993-mnogopotochnostjh-chto-delajut-metodih-klassa-thread)  
+[Многопоточное программирование [Metanit]](https://metanit.com/java/tutorial/8.1.php)  
+[Thread'ом Java не испортишь: Часть I — потоки](https://javarush.com/groups/posts/2047-threadom-java-ne-isportishjh--chastjh-i---potoki)  
+[Thread'ом Java не испортишь: Часть II — синхронизация](https://javarush.com/groups/posts/2048-threadom-java-ne-isportishjh--chastjh-ii---sinkhronizacija)  
+[Thread'ом Java не испортишь: Часть III — взаимодействие](https://javarush.com/groups/posts/2060-threadom-java-ne-isportishjh--chastjh-iii---vzaimodeystvie)  
+[Thread'ом Java не испортишь: Часть IV — Callable, Future и друзья](https://javarush.com/groups/posts/2065-threadom-java-ne-isportishjh--chastjh-iv---callable-future-i-druzjhja)  
+[Thread'ом Java не испортишь: Часть V — Executor, ThreadPool, Fork Join](https://javarush.com/groups/posts/2078-threadom-java-ne-isportishjh--chastjh-v---executor-threadpool-fork-join-pool)  
+[Thread'ом Java не испортишь: Часть VI — К барьеру!](https://javarush.com/groups/posts/2111-threadom-java-ne-isportishjh--chastjh-vi---k-barjheru)  
+[Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 1 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncj0Qb1SA11WEgeF63ES0cX8)   
+[Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 2 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncjs-sVS7_Rl1eAI22b7FZVG)   
+[Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 3 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBnciIxF8EePacwtBYacCNwh-d)  
+
