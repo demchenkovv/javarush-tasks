@@ -80,6 +80,7 @@
 [Синхронизация потоков, блокировка объекта и блокировка класса](https://javarush.com/groups/posts/1055-sinkhronizacija-potokov-blokirovka-obhhekta-i-blokirovka-klassa)  
 [Синхронизация потоков. Оператор synchronized в Java [Jesse Haniel]](https://javarush.com/groups/posts/1994-sinkhronizacija-potokov-operator-synchronized)  
 [В чем разница между мьютексом, монитором и семафором [Александр Мяделец]](https://javarush.com/groups/posts/2174-v-chem-raznica-mezhdu-mjhjuteksom-monitorom-i-semaforom)  
+[Управление потоками. Ключевое слово volatile и метод yield()](https://javarush.com/groups/posts/1998-upravlenie-potokami-metodih-volatile-i-yield)  
 
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 1 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncj0Qb1SA11WEgeF63ES0cX8)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 2 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncjs-sVS7_Rl1eAI22b7FZVG)   
