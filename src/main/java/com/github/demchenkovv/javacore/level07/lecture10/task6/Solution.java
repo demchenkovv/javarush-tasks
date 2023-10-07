@@ -71,7 +71,7 @@ public class Solution {
 
     private static void waitAMoment() {
         try {
-            Thread.sleep(300);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
         }
     }
