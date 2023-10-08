@@ -2,6 +2,7 @@ package com.github.demchenkovv.javacore.level07.lecture10.task11;
 
 public class Bankomat {
 
+    // Если посмотреть внимательно в коде, то именно мьютекс этого объекта используется
     static BankAccount account = new BankAccount("Amigo");
 
     public static volatile boolean isStopped;
