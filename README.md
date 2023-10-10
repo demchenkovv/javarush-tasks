@@ -86,5 +86,5 @@
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 2 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncjs-sVS7_Rl1eAI22b7FZVG)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 3 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBnciIxF8EePacwtBYacCNwh-d)
 
-
-
+<br>**Final, Константы и Immutable**  
+[Final, Константы и Immutable в Java](https://javarush.com/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable)  
