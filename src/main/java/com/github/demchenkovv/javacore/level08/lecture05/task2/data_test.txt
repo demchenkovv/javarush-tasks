@@ -1,0 +1,2 @@
+Hello world!
+This , file was , created , to check the counting , of the symbol ",".
