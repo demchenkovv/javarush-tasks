@@ -35,6 +35,8 @@
 [Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
 [Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
 [Побайтовая работа с файлами (сравнительные тесты)](https://javarush.com/groups/posts/1468-pobaytovaja-rabota-s-faylami)  
+[Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
+[Для чего нужен класс PrintStream](https://javarush.com/groups/posts/2138-dlja-chego-nuzhen-klass-printstream)  
 
 <br>**NIO**  
 [Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
