@@ -11,6 +11,7 @@ public class SystemOutWrapper {
         PrintStream consoleStream = System.out;
 
         //Создаем динамический массив
+        //Создаем динамический массив (а можем FileInputStream или другой вывод)
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         //создаем адаптер к классу PrintStream
         PrintStream stream = new PrintStream(outputStream);
