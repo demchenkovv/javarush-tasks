@@ -100,3 +100,9 @@
 [Регулярные выражения в Java (RegEx)](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)  
 [RegEx: 20 коротких шагов для освоения регулярных выражений. Часть 1](https://javarush.com/groups/posts/2679-regex-20-korotkikh-shagov-dlja-osvoenija-reguljarnihkh-vihrazheniy-chastjh-1)  
 [Регулярные выражения в Java, часть 1](https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1)  
+
+<br>**Парсинг HTML с помощью jsoup**  
+[Парсинг html библиотекой jsoup](https://javarush.com/groups/posts/2767-parsing-html-bibliotekoy-jsoup-)  
+[3 примера как разобрать HTML-файл в Java используя Jsoup](https://javarush.com/groups/posts/1086-3-primera-kak-razobratjh-html-fayl-v-java-ispoljhzuja-jsoup)  
+[Лёгкий парсинг HTML с помощью jsoup](https://javarush.com/groups/posts/2007-legkiy-parsing-html-s-pomojshjhju-jsoup)  
+[Parsing HTML in Java with Jsoup](https://www.baeldung.com/java-with-jsoup)
