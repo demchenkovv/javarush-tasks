@@ -37,6 +37,7 @@
 [Побайтовая работа с файлами (сравнительные тесты)](https://javarush.com/groups/posts/1468-pobaytovaja-rabota-s-faylami)  
 [Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
 [Для чего нужен класс PrintStream](https://javarush.com/groups/posts/2138-dlja-chego-nuzhen-klass-printstream)  
+[Классы ByteArrayInputStream и ByteArrayOutputStream](https://metanit.com/java/tutorial/6.4.php)  
 
 <br>**NIO**  
 [Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
@@ -91,3 +92,11 @@
 
 <br>**Final, Константы и Immutable**  
 [Final, Константы и Immutable в Java](https://javarush.com/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable)  
+
+<br>**Регулярные выражения (Regular Expression, regexp)**  
+[RegexOne - Learn regular expressions with simple, interactive exercises.](https://regexone.com/)  
+[Class Pattern](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)  
+[Форматирование чисел и строк](https://hr-vector.com/java/formatirovanie-chisel-strok)
+[Регулярные выражения в Java (RegEx)](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)  
+[RegEx: 20 коротких шагов для освоения регулярных выражений. Часть 1](https://javarush.com/groups/posts/2679-regex-20-korotkikh-shagov-dlja-osvoenija-reguljarnihkh-vihrazheniy-chastjh-1)  
+[Регулярные выражения в Java, часть 1](https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1)  
