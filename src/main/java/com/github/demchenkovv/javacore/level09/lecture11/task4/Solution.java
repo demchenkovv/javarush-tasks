@@ -11,35 +11,39 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        args = new String[]{"C:\\Users\\HOME\\IdeaProjects\\JavaRush\\lectures\\src\\main\\java\\com\\github\\demchenkovv\\javacore\\level09\\lecture11\\task4\\input.txt"};
+        args = new String[]{"src/main/java/com/github/demchenkovv/javacore/level09/lecture11/task4/input.txt"};
 
         Map<String, Double> map = new TreeMap<>();
         try (BufferedReader fileReader = new BufferedReader(new FileReader(args[0]))) {
             while (fileReader.ready()) {
                 String[] split = fileReader.readLine().split(" ");
-                String lastname = split[0];
-                Double value = Double.parseDouble(split[1]);
+                String name = split[0];
+                double value = Double.parseDouble(split[1]);
 
-                // Вариант 1
-                map.put(lastname, map.getOrDefault(lastname, 0.0 + value));
+                // Вариант 1 - getOrDefault(возвращает значение ключа или значение по умолчанию) + спарсенный value
+                map.put(name, map.getOrDefault(name, 0.0) + value);
 
 //                // Вариант 2
-//                map.compute(lastname, (w, p) -> p != null ? p + value : value);
+//                // Map.compute(K key,BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+//                // Для указанного ключа key этот метод устанавливает в качестве value результат выполнения функции remappingFunction
+//                map.compute(name, (k, v) -> v != null ? v + value : value);
 
 //                // Вариант 3
-//                map.merge(lastname, value, (v, newV) -> v + newV);
+//                // Map.merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+//                // - Если в вашей Map ключ key не существует, или value для этого ключа равно null — метод добавляет в Map переданную пару key-value.
+//                // - Если ключ Key существует и его value != null — метод меняет его value на результат выполнения переданной функции remappingFunction.
+//                // - Если remappingFunction возвращает null - key удаляется из коллекции.
+//                map.merge(name, value, (currentValue, newValue) -> currentValue + newValue);
 
 //                // Вариант 4
-//                if (map.containsKey(lastname)) {
-//                    map.put(lastname, map.get(lastname) + value);
+//                if (map.containsKey(name)) {
+//                    map.put(name, map.get(name) + value);
 //                } else {
-//                    map.put(lastname, value);
+//                    map.put(name, value);
 //                }
             }
         }
-        for (Map.Entry<String, Double> el : map.entrySet()) {
-            System.out.println(el.getKey() + " " + el.getValue());
-        }
+        map.forEach((k, v) -> System.out.println(k + " " + v));
     }
 }
 
