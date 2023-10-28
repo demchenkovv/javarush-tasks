@@ -106,3 +106,8 @@
 [3 примера как разобрать HTML-файл в Java используя Jsoup](https://javarush.com/groups/posts/1086-3-primera-kak-razobratjh-html-fayl-v-java-ispoljhzuja-jsoup)  
 [Лёгкий парсинг HTML с помощью jsoup](https://javarush.com/groups/posts/2007-legkiy-parsing-html-s-pomojshjhju-jsoup)  
 [Parsing HTML in Java with Jsoup](https://www.baeldung.com/java-with-jsoup)
+
+<br>**Сериализация**  
+[How to Serialize a Singleton in Java](https://www.baeldung.com/java-serialize-singleton)  
+[Java Serialization: readObject() vs. readResolve()](https://www.baeldung.com/java-serialization-readobject-vs-readresolve)  
+[Сериализация объектов](https://java-online.ru/blog-serialization.xhtml)  
