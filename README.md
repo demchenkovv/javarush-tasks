@@ -108,6 +108,12 @@
 [Parsing HTML in Java with Jsoup](https://www.baeldung.com/java-with-jsoup)
 
 <br>**Сериализация**  
-[How to Serialize a Singleton in Java](https://www.baeldung.com/java-serialize-singleton)  
-[Java Serialization: readObject() vs. readResolve()](https://www.baeldung.com/java-serialization-readobject-vs-readresolve)  
-[Сериализация объектов](https://java-online.ru/blog-serialization.xhtml)  
+[How to Serialize a Singleton in Java [Baeldung]](https://www.baeldung.com/java-serialize-singleton)  
+[Java Serialization: readObject() vs. readResolve() [Baeldung]](https://www.baeldung.com/java-serialization-readobject-vs-readresolve)  
+[Сериализация объектов [Java-online]](https://java-online.ru/blog-serialization.xhtml)  
+[Как сериализовать статическое поле в Java [Hexlet]](https://ru.hexlet.io/qna/java/questions/kak-serializovat-staticheskoe-pole-v-java)  
+[Сериализация в Java. Не все так просто [Хабр]](https://habr.com/ru/articles/431524/)  
+[Изучите секреты Java Serialization API [НГУ]](http://www.ccfit.nsu.ru/~deviv/courses/oop/java_ser_rus.html)  
+[Сериализация объектов (serialization) [ИНТУИТ]](https://intuit.ru/studies/courses/16/16/lecture/27133?page=3)  
+[Сериализация и десериализация в Java](https://javarush.com/groups/posts/2022-serializacija-i-deserializacija-v-java)  
+[Интерфейс Externalizable в Java](https://javarush.com/groups/posts/2023-znakomstvo-s-interfeysom-externalizable)  
