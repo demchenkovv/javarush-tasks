@@ -117,3 +117,5 @@
 [Сериализация объектов (serialization) [ИНТУИТ]](https://intuit.ru/studies/courses/16/16/lecture/27133?page=3)  
 [Сериализация и десериализация в Java](https://javarush.com/groups/posts/2022-serializacija-i-deserializacija-v-java)  
 [Интерфейс Externalizable в Java](https://javarush.com/groups/posts/2023-znakomstvo-s-interfeysom-externalizable)  
+[Сериализация объектов с наследованием в Java [GeeksforGeeks]](https://www.geeksforgeeks.org/object-serialization-inheritance-java/)  
+[Сериализация в Java - Serialization #1 - Advanced Java [YouTube]](https://www.youtube.com/watch?v=PcwXTCWRGvY)  
