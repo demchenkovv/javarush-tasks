@@ -119,3 +119,8 @@
 [Интерфейс Externalizable в Java](https://javarush.com/groups/posts/2023-znakomstvo-s-interfeysom-externalizable)  
 [Сериализация объектов с наследованием в Java [GeeksforGeeks]](https://www.geeksforgeeks.org/object-serialization-inheritance-java/)  
 [Сериализация в Java - Serialization #1 - Advanced Java [YouTube]](https://www.youtube.com/watch?v=PcwXTCWRGvY)  
+
+<br>**Ранее и позднее связывание**  
+[Различия между ранним и поздним связыванием в Java](https://javarush.com/groups/posts/439-razlichija-mezhdu-rannim-i-pozdnim-svjazihvaniem-v-java)  
+[Полиморфизм – позднее связывание [Pro Java]](http://pr0java.blogspot.com/2015/07/blog-post_66.html)  
+[Static and Dynamic Binding in Java [Baeldung]](https://www.baeldung.com/java-static-dynamic-binding)  
