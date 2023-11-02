@@ -1,0 +1,6 @@
+writeSolution: recording data.
+writeSolution: the flush() method does not close the stream.
+writeSolution: We can write more!
+
+readSolution: the object has been restored.
+readSolution: we can continue working.
