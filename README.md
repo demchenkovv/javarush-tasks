@@ -124,3 +124,9 @@
 [Различия между ранним и поздним связыванием в Java](https://javarush.com/groups/posts/439-razlichija-mezhdu-rannim-i-pozdnim-svjazihvaniem-v-java)  
 [Полиморфизм – позднее связывание [Pro Java]](http://pr0java.blogspot.com/2015/07/blog-post_66.html)  
 [Static and Dynamic Binding in Java [Baeldung]](https://www.baeldung.com/java-static-dynamic-binding)  
+
+<br>**Алгоритмы и структуры данных**  
+[Графы [floppyy]](https://web.archive.org/web/20180429130654/http://floppyy.ru/2016/04/20/graphs/)  
+[Графы. Реализация на языке Java обхода графа в глубину и в ширину [floppyy]](https://web.archive.org/web/20190107203405/http://floppyy.ru/2016/05/02/graphs_in_practice/)  
+[Графы. Алгоритм Дейкстры [Youtube]](https://www.youtube.com/watch?v=-cuoV89nRGo)  
+[Количество цифр в целом числе в Java [Baeldung]](https://www.baeldung.com/java-number-of-digits-in-int)  
