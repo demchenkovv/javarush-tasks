@@ -130,3 +130,9 @@
 [Графы. Реализация на языке Java обхода графа в глубину и в ширину [floppyy]](https://web.archive.org/web/20190107203405/http://floppyy.ru/2016/05/02/graphs_in_practice/)  
 [Графы. Алгоритм Дейкстры [Youtube]](https://www.youtube.com/watch?v=-cuoV89nRGo)  
 [Количество цифр в целом числе в Java [Baeldung]](https://www.baeldung.com/java-number-of-digits-in-int)  
+
+<br>**Клонирование / Cloneable**  
+[Клонирование (поверхностное/глубокое) [ExamClouds]](https://www.examclouds.com/ru/java/java-core-russian/cloning)  
+[Порождающий паттерн Прототип (Prototype) [Refactoring.Guru]](https://refactoring.guru/ru/design-patterns/prototype)  
+[Method "clone" should not be overridden [sonarsource.atlassian.net]](https://sonarsource.atlassian.net/browse/RSPEC-2975)  
+[Копирование объекта в Java [techiedelight]](https://www.techiedelight.com/ru/copy-objects-in-java/)  
