@@ -38,6 +38,7 @@
 [Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
 [Для чего нужен класс PrintStream](https://javarush.com/groups/posts/2138-dlja-chego-nuzhen-klass-printstream)  
 [Классы ByteArrayInputStream и ByteArrayOutputStream](https://metanit.com/java/tutorial/6.4.php)  
+[Правильно освобождаем ресурсы в Java](https://habr.com/ru/articles/178405/)  
 
 <br>**NIO**  
 [Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
@@ -85,7 +86,6 @@
 [Синхронизация потоков. Оператор synchronized в Java [Jesse Haniel]](https://javarush.com/groups/posts/1994-sinkhronizacija-potokov-operator-synchronized)  
 [В чем разница между мьютексом, монитором и семафором [Александр Мяделец]](https://javarush.com/groups/posts/2174-v-chem-raznica-mezhdu-mjhjuteksom-monitorom-i-semaforom)  
 [Управление потоками. Ключевое слово volatile и метод yield()](https://javarush.com/groups/posts/1998-upravlenie-potokami-metodih-volatile-i-yield)  
-
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 1 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncj0Qb1SA11WEgeF63ES0cX8)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 2 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncjs-sVS7_Rl1eAI22b7FZVG)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 3 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBnciIxF8EePacwtBYacCNwh-d)
@@ -136,3 +136,15 @@
 [Порождающий паттерн Прототип (Prototype) [Refactoring.Guru]](https://refactoring.guru/ru/design-patterns/prototype)  
 [Method "clone" should not be overridden [sonarsource.atlassian.net]](https://sonarsource.atlassian.net/browse/RSPEC-2975)  
 [Копирование объекта в Java [techiedelight]](https://www.techiedelight.com/ru/copy-objects-in-java/)  
+
+<br>**Reflection API**  
+[Reflection API в Java. Часть 1 [Vertex Academy]](https://vertex-academy.com/tutorials/ru/reflection-api-v-java-chast1/)  
+[Reflection API в Java. Класс Field. Часть 2 [Vertex Academy]](https://vertex-academy.com/tutorials/ru/reflection-api-v-java-class-field/)  
+[Reflection API в Java. Класс Method. Часть 3 [Vertex Academy]](https://vertex-academy.com/tutorials/ru/reflection-api-v-java-klass-method/)  
+[Полное руководство по Java Reflection API. Рефлексия на примерах[JavaDevBlog]](https://javadevblog.com/polnoe-rukovodstvo-po-java-reflection-api-refleksiya-na-primerah.html)  
+[Reflection в Java - Примеры использования](https://javarush.com/groups/posts/2177-primerih-ispoljhzovanija-reflection)  
+
+<br>**Object**  
+[Методы equals & hashCode: практика использования](https://javarush.com/groups/posts/2179-metodih-equals--hashcode-praktika-ispoljhzovanija)  
+[Методы класса Object в Java [Java Blog]](https://java-ru-blog.blogspot.com/2019/12/object-methods.html)  
+
