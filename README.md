@@ -29,7 +29,9 @@
 
 <br>**Exception**  
 [Исключения: перехват и обработка](https://javarush.com/groups/posts/1943-iskljuchenija-perekhvat-i-obrabotka)  
-[Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)
+[Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)  
+[Цепочки исключений в Java [for-each.dev]](https://for-each.dev/lessons/b/-java-chained-exceptions)  
+[Сцепленные исключения [linkex.ru]](http://www.linkex.ru/java/linked-exception.php)  
 
 <br>**IO**  
 [Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
