@@ -1,0 +1,5 @@
+Java Abstract Thread Database Entity YAML Lambda ArrayList ThreadPool LinkedList Throwable Enum Member Recursion NIO Object Timer Regex XML Lombok KeyStore EnumMap Package EnumSet Token Namespace Enumeration Nashorn Native Event Transaction Nested Delegation Null Loop Polymorphism MessageDigest Type Exception NullPointer RuntimeException NullType Exception Numeric Callback Kotlin
+
+Дербент Якутск Арзамас Рог Киев Кувшиново Капустин-Яр Стокгольм Флоренция Глен-Хоп Тобольск Нью-Йорк Афины Муром Осташков Прага Кострома Вена Амстердам Мельбурн Волгоград Минск
+
+Венеция Ялта Минск Амстердам Москва Алушта Атланта Афины Ысити Столькольм Исбук Курск Кишинев Вена Астрахань Ьсити Иерусалим Мюнхен Норильск Канзас Киев
