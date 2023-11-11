@@ -95,11 +95,13 @@
 <br>**Final, Константы и Immutable**  
 [Final, Константы и Immutable в Java](https://javarush.com/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable)  
 
-<br>**Регулярные выражения (Regular Expression, regexp)**  
-[RegexOne - Learn regular expressions with simple, interactive exercises.](https://regexone.com/)  
-[Class Pattern](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)  
-[Форматирование чисел и строк](https://hr-vector.com/java/formatirovanie-chisel-strok)
-[Регулярные выражения в Java (RegEx)](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)  
+<br>**Регулярные выражения (Regular Expression)**
+[Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
+[regex101 [тренажер]](https://regex101.com/)  
+[RegexOne - Learn regular expressions with simple, interactive exercises [regexone]](https://regexone.com/)  
+[Class Pattern [docs.oracle.com]](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)  
+[Форматирование чисел и строк [hr-vector.com]](https://hr-vector.com/java/formatirovanie-chisel-strok)
+[Регулярные выражения в Java (RegExp)](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)  
 [RegEx: 20 коротких шагов для освоения регулярных выражений. Часть 1](https://javarush.com/groups/posts/2679-regex-20-korotkikh-shagov-dlja-osvoenija-reguljarnihkh-vihrazheniy-chastjh-1)  
 [Регулярные выражения в Java, часть 1](https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1)  
 
@@ -149,4 +151,13 @@
 <br>**Object**  
 [Методы equals & hashCode: практика использования](https://javarush.com/groups/posts/2179-metodih-equals--hashcode-praktika-ispoljhzovanija)  
 [Методы класса Object в Java [Java Blog]](https://java-ru-blog.blogspot.com/2019/12/object-methods.html)  
+
+<br>**Кодировки текста (Charset)**  
+[Юникод [wikipedia]](https://ru.wikipedia.org/wiki/Юникод)  
+[Лекция Ивана Головача о кодировках [YouTube]](https://www.youtube.com/watch?v=9kxUO4Sv0VA)  
+[Java: Русские буквы и не только... [javaportal.ru]](https://web.archive.org/web/20200205063309/http://www.javaportal.ru/java/articles/ruschars/ruschars.html)  
+[Кодировка текста ASCII (Windows 1251, CP866, KOI8-R) и Юникод (UTF 8, 16, 32) — как исправить проблему с кракозябрами](https://javarush.com/groups/posts/1418-kodirovka-teksta-ascii-windows-1251-cp866-koi8-r-i-junikod-utf-8-16-32--kak-ispravitjh-problemu)  
+
+<br>**Строки (String)**  
+[Разница между StringTokenizer и методом split() в Java [GeeksforGeeks]](https://www.geeksforgeeks.org/difference-between-stringtokenizer-and-split-method-in-java/)  
 
