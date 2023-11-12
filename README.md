@@ -104,6 +104,7 @@
 [Регулярные выражения в Java (RegExp)](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)  
 [RegEx: 20 коротких шагов для освоения регулярных выражений. Часть 1](https://javarush.com/groups/posts/2679-regex-20-korotkikh-shagov-dlja-osvoenija-reguljarnihkh-vihrazheniy-chastjh-1)  
 [Регулярные выражения в Java, часть 1](https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1)  
+[6 пунктов, которые помогут легко разобраться с regexp [proglib.io]](https://proglib.io/p/learn-regex)  
 
 <br>**Парсинг HTML с помощью jsoup**  
 [Парсинг html библиотекой jsoup](https://javarush.com/groups/posts/2767-parsing-html-bibliotekoy-jsoup-)  
