@@ -3,7 +3,6 @@ package com.github.demchenkovv.javacore.level05.lecture12.task4;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 /*
 Разные методы для разных типов
@@ -14,43 +13,25 @@ public class Solution {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(isr);
 
-        String line = reader.readLine();
 
-
-        while (!line.equals("exit")) {
-            if (line.matches("-?(\\d)+(\\.\\d+)?")) {
+        String line;
+        while (!(line = reader.readLine()).equals("exit")) {
+            try {
                 if (line.contains(".")) {
-                    print(Double.valueOf(line));
+                    print(Double.parseDouble(line));
                 } else {
-                    Integer value = Integer.parseInt(line);
-                    if (value > 0 && value < 128) {
-                        print(Short.parseShort(line));
+                    int i = Integer.parseInt(line);
+                    if (i > 0 && i < 128) {
+                        print((short) i);
                     } else {
-                        print(value);
+                        print(i);
                     }
                 }
-            } else {
+            } catch (Exception ex) {
                 print(line);
             }
-            line = reader.readLine();
         }
         reader.close();
-
-//        // Можно через Scanner. Условия дописать!
-//        Scanner scanner = new Scanner(System.in);
-//
-//        while (true) {
-//            if (scanner.hasNextByte()) {
-//                print(scanner.nextByte());
-//            } else if (scanner.hasNextInt()) {
-//                print(scanner.nextInt());
-//            } else if (scanner.hasNextDouble()) {
-//                print(scanner.nextDouble());
-//            } else {
-//                print(scanner.nextLine());
-//            }
-//        }
-
     }
 
     public static void print(Double value) {
