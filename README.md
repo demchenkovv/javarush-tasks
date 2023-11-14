@@ -90,10 +90,7 @@
 [Управление потоками. Ключевое слово volatile и метод yield()](https://javarush.com/groups/posts/1998-upravlenie-potokami-metodih-volatile-i-yield)  
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 1 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncj0Qb1SA11WEgeF63ES0cX8)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 2 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncjs-sVS7_Rl1eAI22b7FZVG)   
-[Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 3 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBnciIxF8EePacwtBYacCNwh-d)
-
-<br>**Final, Константы и Immutable**  
-[Final, Константы и Immutable в Java](https://javarush.com/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable)  
+[Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 3 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBnciIxF8EePacwtBYacCNwh-d)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
@@ -162,3 +159,6 @@
 <br>**Строки (String)**  
 [Разница между StringTokenizer и методом split() в Java [GeeksforGeeks]](https://www.geeksforgeeks.org/difference-between-stringtokenizer-and-split-method-in-java/)  
 
+<br>**Модификаторы доступа**  
+[Модификаторы или как накладывать чары в мире Java](https://javarush.com/groups/posts/1978-modifikatorih-ili-kak-nakladihvatjh-charih-v-mire-java)  
+[Final, Константы и Immutable в Java](https://javarush.com/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable)  
