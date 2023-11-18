@@ -170,3 +170,5 @@
 [Статические вложенные классы](https://javarush.com/groups/posts/2183-staticheskie-vlozhennihe-klassih)  
 [Внутренние классы в локальном методе](https://javarush.com/groups/posts/2190-vnutrennie-klassih-v-lokaljhnom-metode)  
 [Анонимные классы в Java](https://javarush.com/groups/posts/2193-anonimnihe-klassih)  
+[Наследование внутренних классов (nested classes)](https://javarush.com/groups/posts/2199-primerih-nasledovanija-vnutrennikh-klassov)  
+[Наследование внутренних классов в Java [stackoverflow]](https://ru.stackoverflow.com/questions/664622/Наследование-внутренних-классов-в-java)  
