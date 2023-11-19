@@ -164,8 +164,11 @@
 [Final, Константы и Immutable в Java](https://javarush.com/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable)  
 [Вот так final…](https://javarush.com/groups/posts/591-vot-tak-final)  
 
-<br>**Nested and anonymous classes**  
-[Nested Classes [docs.oracle.com]](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)  
+<br>**Nested / Inner / Local / Anonymous classes**  
+[Nested Classes [The Java™ Tutorials]](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)  
+[Inner Class Example [The Java™ Tutorials]](https://docs.oracle.com/javase/tutorial/java/javaOO/innerclasses.html)  
+[Local Classes [The Java™ Tutorials]](https://docs.oracle.com/javase/tutorial/java/javaOO/localclasses.html)  
+[Anonymous Classes [The Java™ Tutorials]](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html)  
 [Вложенные внутренние классы или Inner Class в Java](https://javarush.com/groups/posts/2181-vlozhennihe-vnutrennie-klassih)  
 [Статические вложенные классы](https://javarush.com/groups/posts/2183-staticheskie-vlozhennihe-klassih)  
 [Внутренние классы в локальном методе](https://javarush.com/groups/posts/2190-vnutrennie-klassih-v-lokaljhnom-metode)  
