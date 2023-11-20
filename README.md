@@ -175,3 +175,5 @@
 [Анонимные классы в Java](https://javarush.com/groups/posts/2193-anonimnihe-klassih)  
 [Наследование внутренних классов (nested classes)](https://javarush.com/groups/posts/2199-primerih-nasledovanija-vnutrennikh-klassov)  
 [Наследование внутренних классов в Java [stackoverflow]](https://ru.stackoverflow.com/questions/664622/Наследование-внутренних-классов-в-java)  
+[Анонимные классы [JavaTutor.net]](https://javatutor.net/articles/anonymyous-classes-in-java)  
+[Блоки инициализации (instance initializer / class initializer) [Vertex Academy]](https://vertex-academy.com/tutorials/ru/bloki-inicializacii-v-java-chast-1/)  
