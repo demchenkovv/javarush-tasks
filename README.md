@@ -97,11 +97,17 @@
 [regex101 [тренажер]](https://regex101.com/)  
 [RegexOne - Learn regular expressions with simple, interactive exercises [regexone]](https://regexone.com/)  
 [Class Pattern [docs.oracle.com]](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)  
-[Форматирование чисел и строк [hr-vector.com]](https://hr-vector.com/java/formatirovanie-chisel-strok)
 [Регулярные выражения в Java (RegExp)](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)  
 [RegEx: 20 коротких шагов для освоения регулярных выражений. Часть 1](https://javarush.com/groups/posts/2679-regex-20-korotkikh-shagov-dlja-osvoenija-reguljarnihkh-vihrazheniy-chastjh-1)  
 [Регулярные выражения в Java, часть 1](https://javarush.com/groups/posts/136-reguljarnihe-vihrazhenija-v-java-chastjh-1)  
 [6 пунктов, которые помогут легко разобраться с regexp [proglib.io]](https://proglib.io/p/learn-regex)  
+
+<br>**Форматирование чисел и строк**  
+[Форматирование чисел и строк [hr-vector.com]](https://hr-vector.com/java/formatirovanie-chisel-strok)  
+[Класс MessageFormat](https://javarush.com/groups/posts/590-klass-messageformat)  
+
+<br>**Comparator**  
+[Сортировка списка объектов с помощью Comparator в Java [techiedelight.com]](https://www.techiedelight.com/ru/sort-list-of-objects-using-comparator-java/#:~:text=Как%20сравнить%20объекты,и%20другие%20свойства.)
 
 <br>**Парсинг HTML с помощью jsoup**  
 [Парсинг html библиотекой jsoup](https://javarush.com/groups/posts/2767-parsing-html-bibliotekoy-jsoup-)  
@@ -177,3 +183,4 @@
 [Наследование внутренних классов в Java [stackoverflow]](https://ru.stackoverflow.com/questions/664622/Наследование-внутренних-классов-в-java)  
 [Анонимные классы [JavaTutor.net]](https://javatutor.net/articles/anonymyous-classes-in-java)  
 [Блоки инициализации (instance initializer / class initializer) [Vertex Academy]](https://vertex-academy.com/tutorials/ru/bloki-inicializacii-v-java-chast-1/)  
+[Какие бывают внутренние классы? [javaway.info]](http://javaway.info/kakie-byvayut-vnutrennie-klassy-kak-pravilno-sozdavat-obekt-vlozhennogo-klassa-kak-pravilno-sozdavat-obekt-vnutrennego-klassa-zachem-ispolzovat-klyuchevoe-slovo-final-pri-sozdanii-anonimnyh-klassov-vo/)  
