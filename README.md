@@ -184,3 +184,13 @@
 [Анонимные классы [JavaTutor.net]](https://javatutor.net/articles/anonymyous-classes-in-java)  
 [Блоки инициализации (instance initializer / class initializer) [Vertex Academy]](https://vertex-academy.com/tutorials/ru/bloki-inicializacii-v-java-chast-1/)  
 [Какие бывают внутренние классы? [javaway.info]](http://javaway.info/kakie-byvayut-vnutrennie-klassy-kak-pravilno-sozdavat-obekt-vlozhennogo-klassa-kak-pravilno-sozdavat-obekt-vnutrennego-klassa-zachem-ispolzovat-klyuchevoe-slovo-final-pri-sozdanii-anonimnyh-klassov-vo/)  
+
+<br>**Введение в Enterprise-разработку [JavaRush]**  
+[Часть 1. Что нужно знать перед изучением Spring и JavaEE](https://javarush.com/groups/posts/2514-vvedenie-v-enterprise-razrabotku)  
+[Часть 2. Поговорим немного об архитектуре ПО](https://javarush.com/groups/posts/2519-chastjh-2-pogovorim-nemnogo-ob-arkhitekture-po)  
+[Часть 3. Протоколы HTTP/HTTPS](https://javarush.com/groups/posts/2521-chastjh-3-protokolih-httphttps)  
+[Часть 4. Основы Maven](https://javarush.com/groups/posts/2523-chastjh-4osnovih-maven)  
+[Часть 5. Сервлеты. Пишем простое веб-приложение](https://javarush.com/groups/posts/2529-chastjh-5-servletih-pishem-prostoe-veb-prilozhenie)  
+[Часть 6. Контейнеры сервлетов](https://javarush.com/groups/posts/2533-chastjh-6-konteynerih-servletov)  
+[Часть 7. Знакомство с паттерном MVC (Model-View-Controller)](https://javarush.com/groups/posts/2536-chastjh-7-znakomstvo-s-patternom-mvc-model-view-controller)  
+[Часть 8. Пишем небольшое приложение на spring-boot](https://javarush.com/groups/posts/2537-chastjh-8-pishem-neboljhshoe-prilozhenie-na-spring-boot)  
