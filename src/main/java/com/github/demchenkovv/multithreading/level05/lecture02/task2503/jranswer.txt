@@ -1,0 +1,23 @@
+    // solution from JavaRush.
+    public static List<Column> getVisibleColumns() {
+        List<Column> result = new LinkedList<>();
+        int nextIndex = 0;
+        boolean hasNextElement = true;
+        while (hasNextElement) {
+            hasNextElement = false;
+            for (int i = 0; i < realOrder.length; i++) {
+                if (realOrder[i] == nextIndex) {
+                    result.add(values()[i]);
+                    break;
+                }
+            }
+            for (int i = 0; i < realOrder.length; i++) {
+                if (realOrder[i] == nextIndex + 1) {
+                    hasNextElement = true;
+                    nextIndex++;
+                    break;
+                }
+            }
+        }
+        return result;
+    }
