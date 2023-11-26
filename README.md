@@ -32,6 +32,7 @@
 [Исключения: checked, unchecked и свои собственные](https://javarush.com/groups/posts/1944-iskljuchenija-checked-unchecked-i-svoi-sobstvennihe)  
 [Цепочки исключений в Java [for-each.dev]](https://for-each.dev/lessons/b/-java-chained-exceptions)  
 [Сцепленные исключения [linkex.ru]](http://www.linkex.ru/java/linked-exception.php)  
+[What Do You Do With InterruptedException? [yegor256.com]](https://www.yegor256.com/2015/10/20/interrupted-exception.html)  
 
 <br>**IO**  
 [Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
@@ -91,6 +92,9 @@
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 1 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncj0Qb1SA11WEgeF63ES0cX8)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 2 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBncjs-sVS7_Rl1eAI22b7FZVG)   
 [Серия видео лекций о многопоточности (Thread/Runnable). Автор: Иван Головач. Часть 3 [YouTube]](https://www.youtube.com/playlist?list=PLoij6udfBnciIxF8EePacwtBYacCNwh-d)  
+[What Do You Do With InterruptedException? [yegor256.com]](https://www.yegor256.com/2015/10/20/interrupted-exception.html)  
+[Java Threads Cheat Sheet [javaconceptoftheday.com]](https://javaconceptoftheday.com/java-threads-cheat-sheet/)  
+[Выполнение задач в многопоточном режиме [ibm.com]](https://web.archive.org/web/20170118200905/http://www.ibm.com/developerworks/ru/library/l-java_universe_multithreading_tasks/index.html)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
