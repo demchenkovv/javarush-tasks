@@ -95,6 +95,10 @@
 [What Do You Do With InterruptedException? [yegor256.com]](https://www.yegor256.com/2015/10/20/interrupted-exception.html)  
 [Java Threads Cheat Sheet [javaconceptoftheday.com]](https://javaconceptoftheday.com/java-threads-cheat-sheet/)  
 [Выполнение задач в многопоточном режиме [ibm.com]](https://web.archive.org/web/20170118200905/http://www.ibm.com/developerworks/ru/library/l-java_universe_multithreading_tasks/index.html)  
+[Java RunnableFuture Example [examples.javacodegeeks.com]](https://examples.javacodegeeks.com/java-development/core-java/util/concurrent/runnablefuture/java-runnablefuture-example/)  
+[Классы Socket и ServerSocket](https://javarush.com/groups/posts/654-klassih-socket-i-serversocket-ili-allo-server-tih-menja-slihshishjh)  
+[Socket Programming in Java [GeeksforGeeks]](https://www.geeksforgeeks.org/socket-programming-in-java/)  
+[Выполнение задач в многопоточном режиме [web.archive.org]](https://web.archive.org/web/20170118200905/http://www.ibm.com/developerworks/ru/library/l-java_universe_multithreading_tasks/index.html)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
