@@ -202,3 +202,6 @@
 [Часть 6. Контейнеры сервлетов](https://javarush.com/groups/posts/2533-chastjh-6-konteynerih-servletov)  
 [Часть 7. Знакомство с паттерном MVC (Model-View-Controller)](https://javarush.com/groups/posts/2536-chastjh-7-znakomstvo-s-patternom-mvc-model-view-controller)  
 [Часть 8. Пишем небольшое приложение на spring-boot](https://javarush.com/groups/posts/2537-chastjh-8-pishem-neboljhshoe-prilozhenie-na-spring-boot)  
+
+<br>**Рекурсия (Recursion in Java)**  
+[Java Core: Рекурсия. Лекция #2 (часть 1) [Golovach Courses]](https://www.youtube.com/watch?v=_YazUOOZ9cE)  
