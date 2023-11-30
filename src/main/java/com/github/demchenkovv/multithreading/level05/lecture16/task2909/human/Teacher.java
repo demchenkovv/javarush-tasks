@@ -1,8 +1,7 @@
 package com.github.demchenkovv.multithreading.level05.lecture16.task2909.human;
 
-public class Teacher extends Human {
+public class Teacher extends UniversityPerson {
     private int numberOfStudents;
-    private String university;
 
     public Teacher(String name, int age, int numberOfStudents) {
         super(name, age);
@@ -16,14 +15,6 @@ public class Teacher extends Human {
     }
 
     public void teach() {
-    }
-
-    public String getUniversity() {
-        return university;
-    }
-
-    public void setUniversity(String university) {
-        this.university = university;
     }
 
     public void printData() {
