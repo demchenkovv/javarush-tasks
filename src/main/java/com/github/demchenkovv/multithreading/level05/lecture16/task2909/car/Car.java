@@ -36,19 +36,21 @@ public class Car {
         }
     }
 
-    public int fill(double numberOfLiters) {
-        if (numberOfLiters < 0)
-            return -1;
-        fuel += numberOfLiters;
-        return 0;
+    public void fill(double numberOfLiters) throws Exception {
+        if (numberOfLiters < 0) {
+            throw new Exception("Передано неверное число.");
+        } else {
+            fuel += numberOfLiters;
+        }
     }
 
     public double getTripConsumption(Date date, int length, Date SummerStart, Date SummerEnd) {
         double consumption;
-        if (date.before(SummerStart) || date.after(SummerEnd)) {
-            consumption = length * winterFuelConsumption + winterWarmingUp;
+        boolean isSummer = isSummer(date, SummerStart, SummerEnd);
+        if (!isSummer) {
+            consumption = getWinterConsumption(length);
         } else {
-            consumption = length * summerFuelConsumption;
+            consumption = getSummerConsumption(length);
         }
         return consumption;
     }
@@ -91,5 +93,17 @@ public class Car {
         if (type == SEDAN)
             return 120;
         return 90;
+    }
+
+    public boolean isSummer(Date date, Date summerStart, Date summerEnd) {
+        return date.after(summerStart) && date.before(summerEnd);
+    }
+
+    public double getWinterConsumption(int length) {
+        return length * winterFuelConsumption + winterWarmingUp;
+    }
+
+    public double getSummerConsumption(int length) {
+        return length * summerFuelConsumption;
     }
 }
