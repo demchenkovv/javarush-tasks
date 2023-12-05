@@ -1,0 +1,56 @@
+package com.github.demchenkovv.multithreading.level06.lecture08.task2609;
+
+/* 
+Распределение элементов по корзинам с собственным локом
+*/
+
+public class Solution {
+    private static final int NUMBER_LOCKS = 12;
+    private final Node[] buckets;
+    private final Object[] locks;
+
+    static class Node {
+        public Node next;
+        public Object key;
+        public Object value;
+    }
+
+    public Solution(int numberBuckets) {
+        buckets = new Node[numberBuckets];
+        locks = new Object[NUMBER_LOCKS];
+        for (int i = 0; i < NUMBER_LOCKS; i++) {
+            locks[i] = new Object();
+        }
+    }
+
+    private final int hash(Object key) {
+        return Math.abs(key.hashCode() % buckets.length);
+    }
+
+
+    // Остаток при делении любого целого числа на целое число N
+    // (int % N) всегда находится в диапазоне от 0 до N-1.
+    /** Используй lock из массива locks в зависимости от хэша объекта и количества лок объектов. */
+    public Object get(Object key) {
+        int hash = hash(key);
+        synchronized (locks[hash % NUMBER_LOCKS]) {
+            for (Node m = buckets[hash]; m != null; m = m.next) {
+                if (m.key.equals(key)) return m.value;
+            }
+        }
+        return null;
+    }
+
+    /** Используй lock из массива locks в зависимости от индекса элемента и количества лок объектов. */
+    public void clear() {
+        for (int i = 0; i < buckets.length; i++) {
+            synchronized (locks[i % NUMBER_LOCKS]) {
+                buckets[i] = null;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
