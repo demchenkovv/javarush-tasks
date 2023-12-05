@@ -1,0 +1,11 @@
+Трудолюбие - душа всякого дела и залог благосостояния
+Расставь volatile там, где необходимо.
+
+
+Requirements:
+1. Класс Solution должен содержать private static поле ScheduledExecutorService interruptScheduledExecutor.
+2. Класс Solution должен содержать private static поле Thread taskThread.
+3. Класс Solution должен содержать private static поле RethrowableTask task.
+4. Класс RethrowableTask должен содержать private поле Throwable throwable.
+5. Класс RethrowableTask должен содержать private поле Runnable runnable.
+6. Расставь volatile там, где необходимо.
