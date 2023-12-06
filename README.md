@@ -99,6 +99,12 @@
 [Классы Socket и ServerSocket](https://javarush.com/groups/posts/654-klassih-socket-i-serversocket-ili-allo-server-tih-menja-slihshishjh)  
 [Socket Programming in Java [GeeksforGeeks]](https://www.geeksforgeeks.org/socket-programming-in-java/)  
 [Выполнение задач в многопоточном режиме [web.archive.org]](https://web.archive.org/web/20170118200905/http://www.ibm.com/developerworks/ru/library/l-java_universe_multithreading_tasks/index.html)  
+[Concurrency [Юрий Ткач]](https://www.youtube.com/watch?v=s032s29-NUU&list=PL6jg6AGdCNaXo06LjCBmRao-qJdf38oKp)  
+[Блокирующие очереди пакета concurrent [java-online.ru]](https://java-online.ru/concurrent-queue-block.xhtml)  
+[Блокировки пакета concurrent [java-online.ru]](https://java-online.ru/concurrent-locks.xhtml)  
+[Lock (java.util.concurrent.Lock) [baeldung]](https://www.baeldung.com/java-concurrent-locks)  
+[Атомарные классы пакета util.concurrent [java-online.ru]](https://java-online.ru/concurrent-atomic.xhtml)  
+[Справочник по синхронизаторам java.util.concurrent.* [habr]](https://habr.com/ru/articles/277669/)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
