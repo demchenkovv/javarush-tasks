@@ -211,3 +211,6 @@
 
 <br>**Рекурсия (Recursion in Java)**  
 [Java Core: Рекурсия. Лекция #2 (часть 1) [Golovach Courses]](https://www.youtube.com/watch?v=_YazUOOZ9cE)  
+
+<br>**Компьютерные сети**  
+[Классы Socket и ServerSocket, или «Алло, сервер? Ты меня слышишь?»](https://javarush.com/groups/posts/654-klassih-socket-i-serversocket-ili-allo-server-tih-menja-slihshishjh)  

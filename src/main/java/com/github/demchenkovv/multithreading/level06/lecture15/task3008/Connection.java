@@ -52,6 +52,7 @@ public class Connection implements Closeable {
         return socket.getRemoteSocketAddress();
     }
 
+    @Override
     public void close() throws IOException {
         in.close();
         out.close();
