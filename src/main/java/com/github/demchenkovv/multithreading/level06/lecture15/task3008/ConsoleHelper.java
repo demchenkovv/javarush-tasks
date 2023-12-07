@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * ConsoleHelper - вспомогательный класс, для чтения или записи в консоль.
+ */
 public class ConsoleHelper {
     private static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
