@@ -3,6 +3,8 @@ package com.github.demchenkovv.multithreading.level06.lecture15.task3008;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Основной класс сервера. Сервер должен поддерживать множество соединений с разными клиентами одновременно.
@@ -28,6 +30,21 @@ public class Server {
             }
         } catch (Exception ex) {
             System.out.println("Server#main(): Произошла ошибка. " + ex.getMessage());
+        }
+    }
+
+    private static Map<String, Connection> connectionMap = new ConcurrentHashMap<>();
+
+    /**
+     * Рассылаем сообщение по всем соединениям
+     */
+    public static void sendBroadcastMessage(Message message) {
+        for (Connection connection : connectionMap.values()) {
+            try {
+                connection.send(message);
+            } catch (IOException ex) {
+                ConsoleHelper.writeMessage("Отправить сообщение не удалось.");
+            }
         }
     }
 
