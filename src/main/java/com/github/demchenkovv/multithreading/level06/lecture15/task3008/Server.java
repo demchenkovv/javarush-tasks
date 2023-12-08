@@ -60,5 +60,22 @@ public class Server {
         public void run() {
 
         }
+
+        /**
+         * Реализация протокола общения с клиентом.
+         * Этап I: знакомство сервера с клиентом
+         */
+        private String serverHandshake(Connection connection) throws IOException, ClassNotFoundException {
+            connection.send(new Message(MessageType.NAME_REQUEST, "Введите имя пользователя."));
+            Message receive = connection.receive();
+            while (receive.getType() != MessageType.USER_NAME || receive.getData().equals("") || connectionMap.containsKey(receive.getData())) {
+                connection.send(new Message(MessageType.NAME_REQUEST, "Неверные данные. Введите имя пользователя."));
+                receive = connection.receive();
+            }
+            connectionMap.put(receive.getData(), connection);
+            connection.send(new Message(MessageType.NAME_ACCEPTED));
+            ConsoleHelper.writeMessage("Имя пользователя " + receive.getData() + " принято.");
+            return receive.getData();
+        }
     }
 }
