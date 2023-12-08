@@ -49,16 +49,43 @@ public class Server {
     }
 
     private static class Handler extends Thread {
-
         private Socket socket;
 
         public Handler(Socket socket) {
             this.socket = socket;
         }
 
+        /**
+         * Этап IV: главный метод, который вызывает все вспомогательные, написанные ранее.
+         */
         @Override
         public void run() {
+            String connectionMessage = "Установлено новое соединение с удаленным адресом: ";
+            ConsoleHelper.writeMessage(connectionMessage + socket.getRemoteSocketAddress());
+            String clientName = null;
 
+            // создать Connection, используя поле socket
+            try (Connection connection = new Connection(socket)) {
+                // знакомство сервера с клиентом, вернуть имя клиента
+                clientName = serverHandshake(connection);
+
+                // рассылать всем участникам чата информацию об имени присоединившегося участника
+                sendBroadcastMessage(new Message(MessageType.USER_ADDED, clientName));
+
+                // сообщать новому участнику о существующих участниках
+                notifyUsers(connection, clientName);
+
+                // запускать главный цикл обработки сообщений сервером
+                serverMainLoop(connection, clientName);
+
+            } catch (IOException | ClassNotFoundException ex1) {
+                ConsoleHelper.writeMessage("Произошла ошибка при обмене данными с удаленным адресом: " + socket.getRemoteSocketAddress());
+            }
+            if (clientName != null) {
+                connectionMap.remove(clientName);
+                sendBroadcastMessage(new Message(MessageType.USER_REMOVED, clientName));
+            }
+            ConsoleHelper.writeMessage("Соединение с удаленным адресом " + socket.getRemoteSocketAddress() + "закрыто.");
         }
 
         /**
