@@ -20,6 +20,38 @@ public class Client {
     protected Connection connection;
     private volatile boolean clientConnected = false; // клиент подсоединен к серверу (true), иначе false
 
+    public void run() {
+        SocketThread socketThread = getSocketThread();
+        // поток-демон: при выходе из программы вспомогательный поток автоматически прервется
+        socketThread.setDaemon(true);
+        socketThread.start();
+        try {
+            synchronized (this) {
+                //  Обычно вызывают wait() и notify() на общем объекте, который используется для синхронизации между потоками, а не на самом потоке (Thread)
+                this.wait();
+            }
+        } catch (InterruptedException ex) {
+            ConsoleHelper.writeMessage("Возникла непредвиденная ошибка на стороне клиента.");
+            return;
+        }
+        if (clientConnected) {
+            ConsoleHelper.writeMessage("Соединение установлено. Для выхода наберите команду 'exit'.");
+        } else {
+            ConsoleHelper.writeMessage("Произошла ошибка во время работы клиента.");
+        }
+        // Считывать сообщения с консоли пока клиент подключен
+        while (clientConnected) {
+            String consoleMessage = ConsoleHelper.readString();
+            if (consoleMessage.equals("exit")) {
+//                clientConnected = false;
+                break;
+            }
+            if (shouldSendTextFromConsole()) {
+                sendTextMessage(consoleMessage);
+            }
+        }
+    }
+
     /**
      * Запрос ввод адреса сервера у пользователя и вернуть введенное значение.
      */
@@ -76,5 +108,11 @@ public class Client {
      * inner class SocketThread отвечает за поток, устанавливающий сокетное соединение и читающий сообщения сервера.
      */
     public class SocketThread extends Thread {
+    }
+
+
+    public static void main(String[] args) {
+        Client client = new Client();
+        client.run();
     }
 }
