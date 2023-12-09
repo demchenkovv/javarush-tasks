@@ -109,6 +109,48 @@ public class Client {
      */
     public class SocketThread extends Thread {
 
+        /**
+         * Представить клиента серверу
+         */
+        protected void clientHandshake() throws IOException, ClassNotFoundException {
+            while (true) {
+                MessageType messageType = connection.receive().getType();
+                if (messageType == MessageType.NAME_REQUEST) {
+                    connection.send(new Message(MessageType.USER_NAME, getUserName()));
+                } else if (messageType == MessageType.NAME_ACCEPTED) {
+                    notifyConnectionStatusChanged(true);
+                    return;
+                } else {
+                    throw new IOException("Unexpected MessageType");
+                }
+            }
+        }
+
+        /**
+         * Главный цикл обработки сообщений сервера
+         */
+        protected void clientMainLoop() throws IOException, ClassNotFoundException {
+            while (true) {
+                Message message = connection.receive();
+                if (message == null) {
+                    throw new IOException("Unexpected MessageType");
+                }
+
+                MessageType messageType = message.getType();
+                String data = message.getData();
+
+                if (messageType == MessageType.TEXT) {
+                    processIncomingMessage(data);
+                } else if (messageType == MessageType.USER_ADDED) {
+                    informAboutAddingNewUser(data);
+                } else if (messageType == MessageType.USER_REMOVED) {
+                    informAboutDeletingNewUser(data);
+                } else {
+                    throw new IOException("Unexpected MessageType");
+                }
+            }
+        }
+
         // Выводит текст message в консоль
         protected void processIncomingMessage(String message) {
             ConsoleHelper.writeMessage(message);
@@ -124,6 +166,9 @@ public class Client {
             ConsoleHelper.writeMessage("Участник с именем " + userName + " покинул чат.");
         }
 
+        /**
+         * Пробудить основной поток внешнего класса
+         */
         protected void notifyConnectionStatusChanged(boolean clientConnected) {
             // Устанавливает значение поля clientConnected внешнего объекта Client в соответствии с переданным параметром.
             Client.this.clientConnected = clientConnected;
@@ -134,7 +179,6 @@ public class Client {
             }
         }
     }
-
 
     public static void main(String[] args) {
         Client client = new Client();
