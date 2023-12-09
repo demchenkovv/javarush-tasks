@@ -53,7 +53,7 @@ public class Client {
     }
 
     /**
-     * Запрос ввод адреса сервера у пользователя и вернуть введенное значение.
+     * Запрос ввода адреса сервера у пользователя и вернуть введенное значение.
      */
     protected String getServerAddress() throws IOException {
         ConsoleHelper.writeMessage("Введите адрес сервера:");
@@ -61,7 +61,7 @@ public class Client {
     }
 
     /**
-     * Запрос ввод порта сервера у пользователя и вернуть введенное значение.
+     * Запрос ввода порта сервера у пользователя и вернуть введенное значение.
      */
     protected int getServerPort() throws IOException {
         ConsoleHelper.writeMessage("Введите порт сервера:");
@@ -69,7 +69,7 @@ public class Client {
     }
 
     /**
-     * Запрос ввод имя пользователя и вернуть введенное значение.
+     * Запрос ввода имени пользователя и вернуть введенное значение.
      */
     protected String getUserName() throws IOException {
         ConsoleHelper.writeMessage("Введите имя пользователя:");
@@ -108,6 +108,31 @@ public class Client {
      * inner class SocketThread отвечает за поток, устанавливающий сокетное соединение и читающий сообщения сервера.
      */
     public class SocketThread extends Thread {
+
+        // Выводит текст message в консоль
+        protected void processIncomingMessage(String message) {
+            ConsoleHelper.writeMessage(message);
+        }
+
+        // Выводит в консоль информацию о том, что участник с именем userName присоединился к чату.
+        protected void informAboutAddingNewUser(String userName) {
+            ConsoleHelper.writeMessage("Участник с именем " + userName + " присоединился к чату.");
+        }
+
+        // Выводит в консоль, что участник с именем userName покинул чат
+        protected void informAboutDeletingNewUser(String userName) {
+            ConsoleHelper.writeMessage("Участник с именем " + userName + " покинул чат.");
+        }
+
+        protected void notifyConnectionStatusChanged(boolean clientConnected) {
+            // Устанавливает значение поля clientConnected внешнего объекта Client в соответствии с переданным параметром.
+            Client.this.clientConnected = clientConnected;
+            // Оповещает (пробуждает ожидающий) основной поток класса Client.
+            // PS: Вне синхронизированного блока у вас нет гарантии очерёдности событий, происходящих в разных потоках.
+            synchronized (Client.this) {
+                Client.this.notify();
+            }
+        }
     }
 
 
