@@ -6,6 +6,7 @@ import com.github.demchenkovv.multithreading.level06.lecture15.task3008.Message;
 import com.github.demchenkovv.multithreading.level06.lecture15.task3008.MessageType;
 
 import java.io.IOException;
+import java.net.Socket;
 
 /**
  * Приступим к написанию клиента. <p>
@@ -108,6 +109,19 @@ public class Client {
      * inner class SocketThread отвечает за поток, устанавливающий сокетное соединение и читающий сообщения сервера.
      */
     public class SocketThread extends Thread {
+
+        public void run() {
+            try {
+                String address = getServerAddress();
+                int port = getServerPort();
+                Socket socket = new Socket(address, port);
+                connection = new Connection(socket);
+                clientHandshake(); // познакомили клиента с сервером
+                clientMainLoop(); // запустили основной цикл обработки сообщений сервера
+            } catch (IOException | ClassNotFoundException e) {
+                notifyConnectionStatusChanged(false);
+            }
+        }
 
         /**
          * Представить клиента серверу
