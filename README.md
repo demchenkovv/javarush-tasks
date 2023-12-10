@@ -20,8 +20,9 @@
 <br>**Цикл for-each**  
 [О For и For-Each Loop](https://javarush.com/groups/posts/for-each-java)
 
-<br>**Оператор switch в Java**  
-[Оператор множественного выбора switch case java](https://javarush.com/groups/posts/operator-switch-v-java)
+<br>**Операторы**  
+[Оператор множественного выбора switch case java](https://javarush.com/groups/posts/operator-switch-v-java)  
+[Операторы перехода в Java, метки](https://javarush.com/groups/posts/2877-operatorih-perekhoda-v-java)  
 
 <br>**Enum**  
 [Как использовать класс Enum](https://javarush.com/groups/posts/1963-kak-ispoljhzovatjh-klass-enum)  
