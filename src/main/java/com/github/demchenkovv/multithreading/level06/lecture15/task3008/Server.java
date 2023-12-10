@@ -85,7 +85,7 @@ public class Server {
                 connectionMap.remove(clientName);
                 sendBroadcastMessage(new Message(MessageType.USER_REMOVED, clientName));
             }
-            ConsoleHelper.writeMessage("Соединение с удаленным адресом " + socket.getRemoteSocketAddress() + "закрыто.");
+            ConsoleHelper.writeMessage("Соединение с удаленным адресом " + socket.getRemoteSocketAddress() + " закрыто.");
         }
 
         /**
