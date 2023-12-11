@@ -106,6 +106,8 @@
 [Lock (java.util.concurrent.Lock) [baeldung]](https://www.baeldung.com/java-concurrent-locks)  
 [Атомарные классы пакета util.concurrent [java-online.ru]](https://java-online.ru/concurrent-atomic.xhtml)  
 [Справочник по синхронизаторам java.util.concurrent.* [habr]](https://habr.com/ru/articles/277669/)  
+[Взаимная блокировка (deadlock) в Java и методы борьбы с ней](https://javarush.com/groups/posts/1422-vzaimnaja-blokirovkadeadlock-v-java-i-metodih-borjhbih-s-ney)  
+[Deadlock Empire — игра для разработчиков](https://deadlockempire.github.io/)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
