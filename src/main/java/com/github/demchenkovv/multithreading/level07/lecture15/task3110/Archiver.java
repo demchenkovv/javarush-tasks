@@ -1,5 +1,7 @@
 package com.github.demchenkovv.multithreading.level07.lecture15.task3110;
 
+import com.github.demchenkovv.multithreading.level07.lecture15.task3110.command.ExitCommand;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.nio.file.Path;
@@ -30,5 +32,8 @@ public class Archiver {
 
             zipFileManager.createZip(source);
         }
+
+        ExitCommand exitCommand = new ExitCommand();
+        exitCommand.execute();
     }
 }
