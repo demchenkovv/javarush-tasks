@@ -35,7 +35,7 @@ public class Archiver {
             try {
                 operation = askOperation();
                 CommandExecutor.execute(operation);
-            } catch (WrongZipFileException wrongEx) {
+            } catch (IOException wrongEx) { // TODO: здесь должно быть catch (WrongZipFileException) !!!
                 ConsoleHelper.writeMessage("Вы не выбрали файл архива или выбрали неверный файл.");
             } catch (Exception ex) {
                 ConsoleHelper.writeMessage("Произошла ошибка. Проверьте введенные данные.");
