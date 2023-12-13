@@ -35,7 +35,7 @@
 [Сцепленные исключения [linkex.ru]](http://www.linkex.ru/java/linked-exception.php)  
 [What Do You Do With InterruptedException? [yegor256.com]](https://www.yegor256.com/2015/10/20/interrupted-exception.html)  
 
-<br>**IO**  
+<br>**IO / NIO**  
 [Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
 [Ввод-вывод в Java. Классы FileInputStream, FileOutputStream, BufferedInputStream](https://javarush.com/groups/posts/2020-vvod-vihvod-v-java-klassih-fileinputstream-fileoutputstream-bufferedinputstream)  
 [Побайтовая работа с файлами (сравнительные тесты)](https://javarush.com/groups/posts/1468-pobaytovaja-rabota-s-faylami)  
@@ -44,8 +44,8 @@
 [Классы ByteArrayInputStream и ByteArrayOutputStream](https://metanit.com/java/tutorial/6.4.php)  
 [Правильно освобождаем ресурсы в Java](https://habr.com/ru/articles/178405/)  
 
-<br>**NIO**  
-[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)
+[Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)  
+[Разбор утилиты Files.walkFileTree()](https://habr.com/ru/articles/437694/)  
 
 <br>**ООП**  
 [Принципы ООП](https://javarush.com/groups/posts/principy-oop)  
@@ -65,6 +65,7 @@
 [Жизненный цикл объекта](https://javarush.com/groups/posts/1930-zhiznennihy-cikl-obhhekta-)
 
 <br>**Stream API. Обработка потока данных**  
+[Полное руководство по Java 8 Stream API в картинках и примерах](https://annimon.com/article/2778)  
 [Java Stream API. Копилка рецептов](https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/)
 
 <br>**Lambda-expression**  
