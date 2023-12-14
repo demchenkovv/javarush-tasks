@@ -22,6 +22,10 @@ public class FileManager {
         return fileList;
     }
 
+    /**
+     * Метод складывает в переменную fileList все файлы, обнаруженные внутри переданного
+     * пути path, вызывая сам себя для всех объектов, в обнаруженных директориях.
+     */
     private void collectFileList(Path path) throws IOException {
         // путь path является обычным файлом, то добавить относительный путь в список
         if (Files.isRegularFile(path)) {

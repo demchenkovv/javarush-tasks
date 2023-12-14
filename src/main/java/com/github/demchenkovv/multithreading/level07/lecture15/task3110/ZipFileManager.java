@@ -1,13 +1,17 @@
 package com.github.demchenkovv.multithreading.level07.lecture15.task3110;
 
 import com.github.demchenkovv.multithreading.level07.lecture15.task3110.exception.PathIsNotFoundException;
+import com.github.demchenkovv.multithreading.level07.lecture15.task3110.exception.WrongZipFileException;
 
+import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 /*
 В Java есть специальный класс ZipOutputStream из пакета java.util.zip, который сжимает
@@ -73,11 +77,48 @@ public class ZipFileManager {
         }
     }
 
+    /**
+     * Метод для копирования данных
+     */
     private void copyData(InputStream in, OutputStream out) throws Exception {
         byte[] buffer = new byte[8 * 1024];
         int len;
         while ((len = in.read(buffer)) != -1) {
             out.write(buffer, 0, len);
         }
+    }
+
+    /**
+     * Метод возвращает список свойств файлов в архиве
+     */
+    public List<FileProperties> getFilesList() throws Exception {
+        if (!Files.isRegularFile(zipFile)) {
+            throw new WrongZipFileException();
+        }
+        // Сюда складываем свойства файлов
+        List<FileProperties> filePropertiesResult = new ArrayList<>();
+
+        // Создаем входящий поток zip и временный буфер типа ByteArrayOutputStream
+        try (ZipInputStream zipInputStream = new ZipInputStream(Files.newInputStream(zipFile));
+             ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
+
+            ZipEntry zipEntry;
+            // Пока есть элементы в потоке, получаем их и считываем информацию
+            while ((zipEntry = zipInputStream.getNextEntry()) != null) {
+
+                // Нельзя узнать размер файла в архиве, не вычитав его. Это очень легко сделать с помощью
+                // нашего метода copyData, используя временный буфер типа ByteArrayOutputStream.
+                // Если этого не делать, то вернутся значения -1 (неизвестный размер).
+                copyData(zipInputStream, baos);
+
+                // Извлекаем информацию из файла и добавляем в коллекцию
+                String name = zipEntry.getName();
+                long size = zipEntry.getSize();
+                long compressionSize = zipEntry.getCompressedSize();
+                int compressionMethod = zipEntry.getMethod();
+                filePropertiesResult.add(new FileProperties(name, size, compressionSize, compressionMethod));
+            }
+        }
+        return filePropertiesResult;
     }
 }
