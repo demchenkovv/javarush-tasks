@@ -8,7 +8,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -161,5 +164,54 @@ public class ZipFileManager {
                 }
             }
         }
+    }
+
+    /**
+     * Метод для удаления файлов из архива, где pathList - это
+     * список относительных путей на файлы внутри архива.
+     */
+    public void removeFiles(List<Path> pathList) throws Exception {
+        if (!Files.isRegularFile(zipFile)) {
+            throw new WrongZipFileException();
+        }
+
+        // Создать временный файл архива в директории по умолчанию
+        Path tempFile = Files.createTempFile("task3110", ".tmp");
+
+        // Создаем zip-поток для чтения файлов
+        try (ZipInputStream zipInputStream = new ZipInputStream(Files.newInputStream(zipFile));
+
+             // Создаем выходной поток для записи в tempFile
+             ZipOutputStream zipOutputStream = new ZipOutputStream(Files.newOutputStream(tempFile))) {
+
+            // текущий zip-файл
+            ZipEntry zipEntry;
+            while ((zipEntry = zipInputStream.getNextEntry()) != null) {
+
+                // Получаем путь текущего zip-файла
+                Path currentZipEntryPath = Paths.get(zipEntry.getName());
+
+                // Проверяем путь текущего zip-файла со списком на удаление;
+                // Если есть - удаляем, иначе - кладем текущий zip-файл в zipOutputStream
+                // и производим копирование данных во временный файл.
+                if (pathList.contains(currentZipEntryPath)) {
+                    ConsoleHelper.writeMessage("Файл " + zipEntry.getName() + " удален.");
+                } else {
+                    zipOutputStream.putNextEntry(zipEntry);
+                    copyData(zipInputStream, zipOutputStream);
+                }
+            }
+        }
+
+        // Переместить временный файл на место оригинального
+        Files.move(tempFile, zipFile, StandardCopyOption.REPLACE_EXISTING);
+    }
+
+    /**
+     * Метод удаление одного файла из архива, который вызывает метод
+     * removeFiles, создавая список из одного элемента.
+     */
+    public void removeFile(Path path) throws Exception {
+        removeFiles(Collections.singletonList(path));
     }
 }
