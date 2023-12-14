@@ -121,4 +121,45 @@ public class ZipFileManager {
         }
         return filePropertiesResult;
     }
+
+    /**
+     * Метод для распаковки, где outputFolder это путь, куда мы будем распаковывать наш архив.
+     */
+    public void extractAll(Path outputFolder) throws Exception {
+        // Проверка наличия zip-файла
+        if (!Files.isRegularFile(zipFile)) {
+            throw new WrongZipFileException();
+        }
+
+        // Если директория outputFolder не существует, то она будет
+        // создана, как и все папки, внутри которых она лежит.
+        if (Files.notExists(outputFolder.getParent())) {
+            Files.createDirectories(outputFolder.getParent());
+        }
+
+        // Создаем входящий поток zip
+        try (ZipInputStream zipInputStream = new ZipInputStream(Files.newInputStream(zipFile))) {
+
+            // Проходимся по содержимому zip потока (файла)
+            ZipEntry zipEntry;
+            while ((zipEntry = zipInputStream.getNextEntry()) != null) {
+
+                // Извлекаем имя файла и получаем путь до родителей
+                String zipFileName = zipEntry.getName();
+                Path fullPath = outputFolder.resolve(zipFileName);
+
+                // Создаем нужные директории (если они еще не созданы) от родительской директории
+                // zipEntry до главной директории. Создаем файл, используя полный путь.
+                Path parent = fullPath.getParent();
+                if (Files.notExists(parent))
+                    Files.createDirectories(parent);
+
+                // Создаем поток outputStream для полного пути файла, в нем копируем данные
+                // с помощью copyData из одного потока в другой
+                try (OutputStream outputStream = Files.newOutputStream(fullPath)) {
+                    copyData(zipInputStream, outputStream);
+                }
+            }
+        }
+    }
 }
