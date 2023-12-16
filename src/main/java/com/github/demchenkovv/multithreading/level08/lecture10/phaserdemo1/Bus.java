@@ -1,4 +1,4 @@
-package com.github.demchenkovv.multithreading.level08.lecture10.phaserdemo;
+package com.github.demchenkovv.multithreading.level08.lecture10.phaserdemo1;
 
 import java.util.ArrayList;
 import java.util.concurrent.Phaser;
