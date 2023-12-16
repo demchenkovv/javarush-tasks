@@ -225,3 +225,7 @@
 
 <br>**Компьютерные сети**  
 [Классы Socket и ServerSocket, или «Алло, сервер? Ты меня слышишь?»](https://javarush.com/groups/posts/654-klassih-socket-i-serversocket-ili-allo-server-tih-menja-slihshishjh)  
+
+<br>**Паттерны проектирования**  
+[Паттерны проектирования | refactoring.guru](https://refactoring.guru/ru/design-patterns/catalog)  
+[Паттерн проектирования “Стратегия” | JR](https://javarush.com/groups/posts/2271-pattern-proektirovanija-strategija)  
