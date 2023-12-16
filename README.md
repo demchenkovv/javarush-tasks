@@ -111,6 +111,7 @@
 [Deadlock Empire — игра для разработчиков](https://deadlockempire.github.io/)  
 [Синхронизаторы пакета concurrent [java-online.ru]](https://java-online.ru/concurrent-synchronizers.xhtml)  
 [Java Concurrent Animated](https://www.jconcurrent.com/)  
+[Understanding Custom ThreadFactory In Java | Wilddiary.com](https://wilddiary.com/understanding_custom_threadfactory_in_java/)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
