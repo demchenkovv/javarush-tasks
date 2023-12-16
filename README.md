@@ -114,6 +114,8 @@
 [Understanding Custom ThreadFactory In Java | Wilddiary.com](https://wilddiary.com/understanding_custom_threadfactory_in_java/)  
 [Многопоточность в Java: ExecutorService | Хабр](https://habr.com/ru/articles/116363/)  
 [Введение в пулы потоков в Java | for-each.dev](https://for-each.dev/lessons/b/-thread-pool-java-and-guava)  
+[Новый синхронизатор Phaser | Хабр](https://habr.com/ru/articles/117185/)  
+[Класс Phaser | metanit.com](https://metanit.com/java/tutorial/8.8.php)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
