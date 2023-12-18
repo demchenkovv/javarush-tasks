@@ -152,6 +152,9 @@
 [Интерфейс Externalizable в Java](https://javarush.com/groups/posts/2023-znakomstvo-s-interfeysom-externalizable)  
 [Сериализация объектов с наследованием в Java [GeeksforGeeks]](https://www.geeksforgeeks.org/object-serialization-inheritance-java/)  
 [Сериализация в Java - Serialization #1 - Advanced Java [YouTube]](https://www.youtube.com/watch?v=PcwXTCWRGvY)  
+[Форматы сериализации в Java | JR](https://javarush.com/groups/posts/2290-formatih-serializacii-v-java)  
+[XML в Java: Что это? | JR](https://javarush.com/groups/posts/2287-chto-takoe-xml)  
+[Парсинг JSON с помощью Jackson | Хабр](https://habr.com/ru/companies/otus/articles/687004/)  
 
 <br>**Ранее и позднее связывание**  
 [Различия между ранним и поздним связыванием в Java](https://javarush.com/groups/posts/439-razlichija-mezhdu-rannim-i-pozdnim-svjazihvaniem-v-java)  
@@ -229,3 +232,11 @@
 <br>**Паттерны проектирования**  
 [Паттерны проектирования | refactoring.guru](https://refactoring.guru/ru/design-patterns/catalog)  
 [Паттерн проектирования “Стратегия” | JR](https://javarush.com/groups/posts/2271-pattern-proektirovanija-strategija)  
+
+<br>**Тестирование кода**  
+[JUnit part I | JR](https://javarush.com/groups/posts/605-junit)  
+[JUnit part II | JR](https://javarush.com/groups/posts/606-junit-part-ii)  
+
+<br>**Полезные инструменты**  
+[Топ-10 библиотек Java, которые помогут сэкономить время | JR](https://javarush.com/groups/posts/366-top-10-bibliotek-java-kotorihe-pomogut-sehkonomitjh-vremja-)  
+[FindBugs помогает узнать Java лучше | JR](https://javarush.com/groups/posts/1424-findbugs-pomogaet-uznatjh-java-luchshe)  
