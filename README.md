@@ -239,4 +239,4 @@
 
 <br>**Полезные инструменты**  
 [Топ-10 библиотек Java, которые помогут сэкономить время | JR](https://javarush.com/groups/posts/366-top-10-bibliotek-java-kotorihe-pomogut-sehkonomitjh-vremja-)  
-[FindBugs помогает узнать Java лучше | JR](https://javarush.com/groups/posts/1424-findbugs-pomogaet-uznatjh-java-luchshe)  
+[FindBugs помогает узнать Java лучше | Хабр](https://habr.com/ru/articles/201334/)  
