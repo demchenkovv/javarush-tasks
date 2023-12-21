@@ -2,6 +2,7 @@
 
 <br>**Boxing/unboxing**  
 [Обёртки, распаковка и запаковка](https://javarush.com/groups/posts/1948-objertki-raspakovka-i-zapakovka)
+[Автоупаковка и распаковка в Java](https://javarush.com/groups/posts/706-avtoupakovka-i-raspakovka-v-java)  
 
 <br>**ArrayList**  
 [Класс ArrayList](https://javarush.com/groups/posts/klass-arraylist)  
