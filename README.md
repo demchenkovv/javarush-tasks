@@ -240,3 +240,6 @@
 <br>**Полезные инструменты**  
 [Топ-10 библиотек Java, которые помогут сэкономить время | JR](https://javarush.com/groups/posts/366-top-10-bibliotek-java-kotorihe-pomogut-sehkonomitjh-vremja-)  
 [FindBugs помогает узнать Java лучше | Хабр](https://habr.com/ru/articles/201334/)  
+
+<br>**BigInteger**  
+[Перевод систем счисления с помощью класса BigInteger | streletzcoder.ru](https://streletzcoder.ru/perevod-sistem-schisleniya-s-pomoshhyu-klassa-biginteger-ili-kak-perevesti-chislo-v-druguyu-sistemu-schisleniya-s-pomoshhyu-odnoy-sroki-koda/)  
