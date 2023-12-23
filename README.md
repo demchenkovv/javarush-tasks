@@ -117,6 +117,7 @@
 [Введение в пулы потоков в Java | for-each.dev](https://for-each.dev/lessons/b/-thread-pool-java-and-guava)  
 [Новый синхронизатор Phaser | Хабр](https://habr.com/ru/articles/117185/)  
 [Класс Phaser | metanit.com](https://metanit.com/java/tutorial/8.8.php)  
+[Незаслуженно забытый ForkJoinPool; Модель Fork-Join | nuancesprog.ru](https://nuancesprog.ru/p/11996/)  
 
 <br>**Регулярные выражения (Regular Expression)**
 [Регулярные выражения [wikipedia]](https://ru.wikipedia.org/wiki/Регулярные_выражения)  
