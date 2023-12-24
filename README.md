@@ -35,6 +35,7 @@
 [Цепочки исключений в Java [for-each.dev]](https://for-each.dev/lessons/b/-java-chained-exceptions)  
 [Сцепленные исключения [linkex.ru]](http://www.linkex.ru/java/linked-exception.php)  
 [What Do You Do With InterruptedException? [yegor256.com]](https://www.yegor256.com/2015/10/20/interrupted-exception.html)  
+[Как понять NullPointerException | Хабр](https://habr.com/ru/articles/221243/)  
 
 <br>**IO / NIO**  
 [Практика работы с классами BufferedReader и InputStreamReader](https://javarush.com/groups/posts/2140-praktika-rabotih-s-klassami-buffreredreader-i-inputstreamreader)  
@@ -245,3 +246,8 @@
 
 <br>**BigInteger**  
 [Перевод систем счисления с помощью класса BigInteger | streletzcoder.ru](https://streletzcoder.ru/perevod-sistem-schisleniya-s-pomoshhyu-klassa-biginteger-ili-kak-perevesti-chislo-v-druguyu-sistemu-schisleniya-s-pomoshhyu-odnoy-sroki-koda/)  
+
+<br>**Побитовые операции**
+[Битовая маска в Java с побитовыми операторами | for-each.dev](https://for-each.dev/lessons/b/-java-bitmasking)
+[Хитрости с битовыми операциями | tproger.ru](https://tproger.ru/articles/awesome-bits)  
+[Знакомство с операторами Java: логические, арифметические, побитовые | JR](https://javarush.com/groups/posts/operatory-java-logicheskie-arifmeticheskie-pobitovye)  
