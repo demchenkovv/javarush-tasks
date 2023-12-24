@@ -67,7 +67,6 @@ public class JSoupExample2 {
         try {
             htmlFile = Jsoup.parse(new File("src/main/java/com/github/demchenkovv/javacore/level09/lecture11/jsoup_example/login.html"), "ISO-8859-1");
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } // right
         title = htmlFile.title();
