@@ -157,6 +157,8 @@
 [Сериализация в Java - Serialization #1 - Advanced Java [YouTube]](https://www.youtube.com/watch?v=PcwXTCWRGvY)  
 [Форматы сериализации в Java | JR](https://javarush.com/groups/posts/2290-formatih-serializacii-v-java)  
 [XML в Java: Что это? | JR](https://javarush.com/groups/posts/2287-chto-takoe-xml)  
+[Основы XML для Java программиста - Часть 1 из 3 | JR](https://javarush.com/groups/posts/620-konkurs-osnovih-xml-dlja-java-programmista---chastjh-1-iz-3)  
+[XML Tutorial | w3schools.com](https://www.w3schools.com/xml/default.asp)  
 [Парсинг JSON с помощью Jackson | Хабр](https://habr.com/ru/companies/otus/articles/687004/)  
 
 <br>**Ранее и позднее связывание**  
