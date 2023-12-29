@@ -167,6 +167,7 @@
 [Static and Dynamic Binding in Java [Baeldung]](https://www.baeldung.com/java-static-dynamic-binding)  
 
 <br>**Алгоритмы и структуры данных**  
+[Структуры данных в Java — стек и очередь | JR](https://javarush.com/groups/posts/2321-strukturih-dannihkh--stek-i-ocheredjh)  
 [Графы [floppyy]](https://web.archive.org/web/20180429130654/http://floppyy.ru/2016/04/20/graphs/)  
 [Графы. Реализация на языке Java обхода графа в глубину и в ширину [floppyy]](https://web.archive.org/web/20190107203405/http://floppyy.ru/2016/05/02/graphs_in_practice/)  
 [Графы. Алгоритм Дейкстры [Youtube]](https://www.youtube.com/watch?v=-cuoV89nRGo)  
