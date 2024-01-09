@@ -46,7 +46,7 @@
 [Классы ByteArrayInputStream и ByteArrayOutputStream](https://metanit.com/java/tutorial/6.4.php)  
 [Правильно освобождаем ресурсы в Java](https://habr.com/ru/articles/178405/)  
 [Класс SequenceInputStream в Java | for-each.dev](https://for-each.dev/lessons/b/-java-sequenceinputstream)  
-
+[Работа с ZIP-архивами | metanit.com](https://metanit.com/java/tutorial/6.12.php)  
 [Java Files, Path, FileVisitor](https://javarush.com/groups/posts/2275-files-path)  
 [Разбор утилиты Files.walkFileTree()](https://habr.com/ru/articles/437694/)  
 
