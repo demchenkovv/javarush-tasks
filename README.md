@@ -239,6 +239,7 @@
 <br>**Паттерны проектирования**  
 [Паттерны проектирования | refactoring.guru](https://refactoring.guru/ru/design-patterns/catalog)  
 [Паттерн проектирования “Стратегия” | JR](https://javarush.com/groups/posts/2271-pattern-proektirovanija-strategija)  
+Динамические прокси (Dynamic Proxies) в Java: [JR; ](https://javarush.com/groups/posts/2281-dinamicheskie-proksi) [restless-man](https://restless-man.livejournal.com/24320.html)  
 
 <br>**Тестирование кода**  
 [JUnit part I | JR](https://javarush.com/groups/posts/605-junit)  
@@ -254,4 +255,8 @@
 <br>**Побитовые операции**
 [Битовая маска в Java с побитовыми операторами | for-each.dev](https://for-each.dev/lessons/b/-java-bitmasking)
 [Хитрости с битовыми операциями | tproger.ru](https://tproger.ru/articles/awesome-bits)  
-[Знакомство с операторами Java: логические, арифметические, побитовые | JR](https://javarush.com/groups/posts/operatory-java-logicheskie-arifmeticheskie-pobitovye)  
+[Знакомство с операторами Java: логические, арифметические, побитовые | JR](https://javarush.com/groups/posts/operatory-java-logicheskie-arifmeticheskie-pobitovye)
+
+<br>**JVM**  
+[Как происходит загрузка классов в JVM | JR](https://javarush.com/groups/posts/646-kak-proiskhodit-zagruzka-klassov-v-jvm)  
+[Загрузка классов в Java. Теория | Хабр](https://habr.com/ru/articles/103830/)  
