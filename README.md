@@ -260,3 +260,9 @@
 <br>**JVM**  
 [Как происходит загрузка классов в JVM | JR](https://javarush.com/groups/posts/646-kak-proiskhodit-zagruzka-klassov-v-jvm)  
 [Загрузка классов в Java. Теория | Хабр](https://habr.com/ru/articles/103830/)  
+
+<br>**Криптография**  
+[Java Cryptography Architecture: Первое знакомство | JR](https://javarush.com/groups/posts/2277-java-cryptography-architecture--pervoe-znakomstvo)  
+[Криптография в Java. Класс MessageDigest | Хабр](https://habr.com/ru/articles/444974/)  
+[Хеширование текста, MessageDigest | java-online.ru](https://java-online.ru/messagedidgest.xhtml)  
+[Урок Java 213: Работа с шифрованием MD5 и SHA-1 | Уроки Java](https://www.youtube.com/watch?v=epX1k_kCT9s)  
