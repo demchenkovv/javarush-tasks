@@ -240,6 +240,8 @@
 [Паттерны проектирования | refactoring.guru](https://refactoring.guru/ru/design-patterns/catalog)  
 [Паттерн проектирования “Стратегия” | JR](https://javarush.com/groups/posts/2271-pattern-proektirovanija-strategija)  
 Динамические прокси (Dynamic Proxies) в Java: [JR; ](https://javarush.com/groups/posts/2281-dinamicheskie-proksi) [restless-man](https://restless-man.livejournal.com/24320.html)  
+[Шаблон Service Locator и реализация Java | for-each.dev](https://for-each.dev/lessons/b/-java-service-locator-pattern)  
+[Pattern: Service Locator | ](https://www.youtube.com/watch?v=Q_u33e8vgRU)  
 
 <br>**Тестирование кода**  
 [JUnit part I | JR](https://javarush.com/groups/posts/605-junit)  
@@ -266,3 +268,9 @@
 [Криптография в Java. Класс MessageDigest | Хабр](https://habr.com/ru/articles/444974/)  
 [Хеширование текста, MessageDigest | java-online.ru](https://java-online.ru/messagedidgest.xhtml)  
 [Урок Java 213: Работа с шифрованием MD5 и SHA-1 | Уроки Java](https://www.youtube.com/watch?v=epX1k_kCT9s)  
+
+<br>**Remote Method Invocation (RMI)**  
+[RMI: практика использования | JR](https://javarush.com/groups/posts/2283-rmi-praktika-ispoljhzovanija)  
+[Технологии Java. Сериализация и RMI | YouTube](https://www.youtube.com/watch?v=Yg-6ArjJGoA&t=1672s)  
+[Pattern Service Locator | YouTube](https://www.youtube.com/watch?v=Q_u33e8vgRU)  
+
