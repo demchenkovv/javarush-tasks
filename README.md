@@ -161,6 +161,9 @@
 [Основы XML для Java программиста - Часть 1 из 3 | JR](https://javarush.com/groups/posts/620-konkurs-osnovih-xml-dlja-java-programmista---chastjh-1-iz-3)  
 [XML Tutorial | w3schools.com](https://www.w3schools.com/xml/default.asp)  
 [Парсинг JSON с помощью Jackson | Хабр](https://habr.com/ru/companies/otus/articles/687004/)  
+[JSON: что это за формат и как с ним работать | skillbox.ru](https://skillbox.ru/media/code/json-chto-eto-za-format-i-kak-s-nim-rabotat/#stk-3)  
+[Jackson Annotations Tutorial | tutorialspoint.com](https://www.tutorialspoint.com/jackson_annotations/index.htm)  
+[Аннотации Jackson | nsergey.com](https://nsergey.com/jackson-annotations/)  
 
 <br>**Ранее и позднее связывание**  
 [Различия между ранним и поздним связыванием в Java](https://javarush.com/groups/posts/439-razlichija-mezhdu-rannim-i-pozdnim-svjazihvaniem-v-java)  
@@ -173,6 +176,7 @@
 [Графы. Реализация на языке Java обхода графа в глубину и в ширину [floppyy]](https://web.archive.org/web/20190107203405/http://floppyy.ru/2016/05/02/graphs_in_practice/)  
 [Графы. Алгоритм Дейкстры [Youtube]](https://www.youtube.com/watch?v=-cuoV89nRGo)  
 [Количество цифр в целом числе в Java [Baeldung]](https://www.baeldung.com/java-number-of-digits-in-int)  
+[Структуры данных Java #неОпятьАСнова #javaJunior | Хабр](https://habr.com/ru/articles/696184/)  
 
 <br>**Клонирование / Cloneable**  
 [Клонирование (поверхностное/глубокое) [ExamClouds]](https://www.examclouds.com/ru/java/java-core-russian/cloning)  
