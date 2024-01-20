@@ -144,7 +144,7 @@
 [Лёгкий парсинг HTML с помощью jsoup](https://javarush.com/groups/posts/2007-legkiy-parsing-html-s-pomojshjhju-jsoup)  
 [Parsing HTML in Java with Jsoup](https://www.baeldung.com/java-with-jsoup)
 
-<br>**Сериализация**  
+<br>**Сериализация/десериализация**  
 [How to Serialize a Singleton in Java [Baeldung]](https://www.baeldung.com/java-serialize-singleton)  
 [Java Serialization: readObject() vs. readResolve() [Baeldung]](https://www.baeldung.com/java-serialization-readobject-vs-readresolve)  
 [Сериализация объектов [Java-online]](https://java-online.ru/blog-serialization.xhtml)  
@@ -158,7 +158,12 @@
 [Сериализация в Java - Serialization #1 - Advanced Java [YouTube]](https://www.youtube.com/watch?v=PcwXTCWRGvY)  
 [Форматы сериализации в Java | JR](https://javarush.com/groups/posts/2290-formatih-serializacii-v-java)  
 [XML в Java: Что это? | JR](https://javarush.com/groups/posts/2287-chto-takoe-xml)  
-[Основы XML для Java программиста - Часть 1 из 3 | JR](https://javarush.com/groups/posts/620-konkurs-osnovih-xml-dlja-java-programmista---chastjh-1-iz-3)  
+[Основы XML - Часть 1 (DTD) | JR](https://javarush.com/groups/posts/620-konkurs-osnovih-xml-dlja-java-programmista---chastjh-1-iz-3)  
+[Основы XML - Часть 2 (XML Namespace, XML Schema) | JR](https://javarush.com/groups/posts/633-konkurs-osnovih-xml-dlja-java-programmista---chastjh-2-iz-3)  
+[Основы XML - Часть 3.1 (SAX) | JR](https://javarush.com/groups/posts/650-konkurs-osnovih-xml-dlja-java-programmista---chastjh-31-iz-3---sax)  
+[Основы XML - Часть 3.2 (DOM) | JR](https://javarush.com/groups/posts/656-konkurs-osnovih-xml-dlja-java-programmista---chastjh-31-iz-3---dom)  
+[Java. Работа с XML-документами (JAXB и DOM) | Хабр](https://habr.com/ru/companies/simbirsoft/articles/704818/)  
+[Java. Простой SAX парсер | Хабр](https://habr.com/ru/articles/62757/)  
 [XML Tutorial | w3schools.com](https://www.w3schools.com/xml/default.asp)  
 [Парсинг JSON с помощью Jackson | Хабр](https://habr.com/ru/companies/otus/articles/687004/)  
 [JSON: что это за формат и как с ним работать | skillbox.ru](https://skillbox.ru/media/code/json-chto-eto-za-format-i-kak-s-nim-rabotat/#stk-3)  
