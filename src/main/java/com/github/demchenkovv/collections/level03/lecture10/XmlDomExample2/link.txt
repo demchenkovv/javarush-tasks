@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=ONfqhT_oua4
+Тимофей Коваленко (Android teacher)
+Парсинг XML в Java методом DOM на практике. Parsing XML Java.
+На практике показываю, как парсить XML библиотекой DOM в Java. Parsing XML Java.
