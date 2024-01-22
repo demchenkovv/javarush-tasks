@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <oracle>
+        <connection value="jdbc:oracle:thin:@10.220.140.48:1521:test1"/>
+        <user value="secretOracleUsername"/>
+        <password value="111"/>
+        <text in="in oracle">Text inside an element 'oracle'</text>
+    </oracle>
+
+    <mysql>
+        <connection value="jdbc:mysql:thin:@10.220.140.48:1521:test1"/>
+        <user value="secretMySQLUsername"/>
+        <password value="222"/>
+        <text in="in mysql">Text inside an element 'mysql'</text>
+    </mysql>
+</root>
