@@ -1,6 +1,6 @@
 #### My ignor list ###
 .idea/
-/alltasks/*
+/alltasks/
 
 target/
 !.mvn/wrapper/maven-wrapper.jar

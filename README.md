@@ -165,10 +165,14 @@
 [Java. Работа с XML-документами (JAXB и DOM) | Хабр](https://habr.com/ru/companies/simbirsoft/articles/704818/)  
 [Java. Простой SAX парсер | Хабр](https://habr.com/ru/articles/62757/)  
 [XML Tutorial | w3schools.com](https://www.w3schools.com/xml/default.asp)  
+[XML (DTD, Namespaces, XML Schema, XPath, XML Web сервисы, DOM, JAXB, Apache Digester, Java SAX parser) | dev64.wordpress.com](https://dev64.wordpress.com/xml/)  
 [Парсинг JSON с помощью Jackson | Хабр](https://habr.com/ru/companies/otus/articles/687004/)  
 [JSON: что это за формат и как с ним работать | skillbox.ru](https://skillbox.ru/media/code/json-chto-eto-za-format-i-kak-s-nim-rabotat/#stk-3)  
 [Jackson Annotations Tutorial | tutorialspoint.com](https://www.tutorialspoint.com/jackson_annotations/index.htm)  
 [Аннотации Jackson | nsergey.com](https://nsergey.com/jackson-annotations/)  
+[YAML | Wikipedia](https://ru.wikipedia.org/wiki/YAML)  
+[Yaml vs. Json — что круче? | Хабр](https://habr.com/ru/companies/rambler_and_co/articles/525498/)  
+[YAML за 5 минут: синтаксис и основные возможности | tproger.ru](https://tproger.ru/translations/yaml-za-5-minut-sintaksis-i-osnovnye-vozmozhnosti)  
 
 <br>**Ранее и позднее связывание**  
 [Различия между ранним и поздним связыванием в Java](https://javarush.com/groups/posts/439-razlichija-mezhdu-rannim-i-pozdnim-svjazihvaniem-v-java)  
@@ -264,7 +268,7 @@
 [Перевод систем счисления с помощью класса BigInteger | streletzcoder.ru](https://streletzcoder.ru/perevod-sistem-schisleniya-s-pomoshhyu-klassa-biginteger-ili-kak-perevesti-chislo-v-druguyu-sistemu-schisleniya-s-pomoshhyu-odnoy-sroki-koda/)  
 
 <br>**Побитовые операции**
-[Битовая маска в Java с побитовыми операторами | for-each.dev](https://for-each.dev/lessons/b/-java-bitmasking)
+[Битовая маска в Java с побитовыми операторами | for-each.dev](https://for-each.dev/lessons/b/-java-bitmasking)  
 [Хитрости с битовыми операциями | tproger.ru](https://tproger.ru/articles/awesome-bits)  
 [Знакомство с операторами Java: логические, арифметические, побитовые | JR](https://javarush.com/groups/posts/operatory-java-logicheskie-arifmeticheskie-pobitovye)
 
