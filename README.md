@@ -199,6 +199,7 @@
 [Reflection API в Java. Класс Method. Часть 3 [Vertex Academy]](https://vertex-academy.com/tutorials/ru/reflection-api-v-java-klass-method/)  
 [Полное руководство по Java Reflection API. Рефлексия на примерах[JavaDevBlog]](https://javadevblog.com/polnoe-rukovodstvo-po-java-reflection-api-refleksiya-na-primerah.html)  
 [Reflection в Java - Примеры использования](https://javarush.com/groups/posts/2177-primerih-ispoljhzovanija-reflection)  
+[Reflection API. Рефлексия. Темная сторона Java | JR](https://javarush.com/groups/posts/513-reflection-api-refleksija-temnaja-storona-java)  
 
 <br>**Object**  
 [Методы equals & hashCode: практика использования](https://javarush.com/groups/posts/2179-metodih-equals--hashcode-praktika-ispoljhzovanija)  
