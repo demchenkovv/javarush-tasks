@@ -268,7 +268,7 @@
 <br>**BigInteger**  
 [Перевод систем счисления с помощью класса BigInteger | streletzcoder.ru](https://streletzcoder.ru/perevod-sistem-schisleniya-s-pomoshhyu-klassa-biginteger-ili-kak-perevesti-chislo-v-druguyu-sistemu-schisleniya-s-pomoshhyu-odnoy-sroki-koda/)  
 
-<br>**Побитовые операции**
+<br>**Побитовые операции**  
 [Битовая маска в Java с побитовыми операторами | for-each.dev](https://for-each.dev/lessons/b/-java-bitmasking)  
 [Хитрости с битовыми операциями | tproger.ru](https://tproger.ru/articles/awesome-bits)  
 [Знакомство с операторами Java: логические, арифметические, побитовые | JR](https://javarush.com/groups/posts/operatory-java-logicheskie-arifmeticheskie-pobitovye)
@@ -288,3 +288,11 @@
 [Технологии Java. Сериализация и RMI | YouTube](https://www.youtube.com/watch?v=Yg-6ArjJGoA&t=1672s)  
 [Pattern Service Locator | YouTube](https://www.youtube.com/watch?v=Q_u33e8vgRU)  
 
+<br>**Логирование (Java Logging)**  
+[Что, как, где и чем? | JR](https://javarush.com/groups/posts/2388-logirovanie-chto-kak-gde-i-chem)  
+[Уровни событий | JR](https://javarush.com/quests/lectures/questservlets.level05.lecture02)  
+[Java: Логирование с нуля. Log4J2, SLF4J](https://www.youtube.com/watch?v=T_5FId6BVhk)  
+[Slf4j - Что нужно качать для разных целей](https://www.slf4j.org/images/concrete-bindings.png)  
+[Логирование в Java / quick start | Хабр](https://habr.com/ru/articles/130195/)  
+[A Guide to Log4j and the log4j.properties File in Java | Baeldung](https://www.baeldung.com/java-log4j-properties-guide)  
+[Java Logging Overview | docs.oracle.com](https://docs.oracle.com/en/java/javase/21/core/java-logging-overview.html)  
