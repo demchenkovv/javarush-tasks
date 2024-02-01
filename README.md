@@ -289,10 +289,13 @@
 [Pattern Service Locator | YouTube](https://www.youtube.com/watch?v=Q_u33e8vgRU)  
 
 <br>**Логирование (Java Logging)**  
+[SLF4J Tutorial: Loggers, Levels & How to Configure for Java Applications with Examples | sematext.com](https://sematext.com/blog/slf4j-tutorial/)  
 [Что, как, где и чем? | JR](https://javarush.com/groups/posts/2388-logirovanie-chto-kak-gde-i-chem)  
 [Уровни событий | JR](https://javarush.com/quests/lectures/questservlets.level05.lecture02)  
 [Java: Логирование с нуля. Log4J2, SLF4J](https://www.youtube.com/watch?v=T_5FId6BVhk)  
-[Slf4j - Что нужно качать для разных целей](https://www.slf4j.org/images/concrete-bindings.png)  
 [Логирование в Java / quick start | Хабр](https://habr.com/ru/articles/130195/)  
 [A Guide to Log4j and the log4j.properties File in Java | Baeldung](https://www.baeldung.com/java-log4j-properties-guide)  
 [Java Logging Overview | docs.oracle.com](https://docs.oracle.com/en/java/javase/21/core/java-logging-overview.html)  
+
+<br>**Generics**  
+[Что такое дженерики в Java | JR](https://javarush.com/groups/posts/2295-chto-takoe-dzheneriki-v-java)  
